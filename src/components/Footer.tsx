@@ -19,7 +19,7 @@ export default async function Footer() {
           <div className="px-5 py-2">
             <a
               href="#about"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-blue-900"
             >
               {about}
             </a>
@@ -27,7 +27,7 @@ export default async function Footer() {
           <div className="px-5 py-2">
             <a
               href="#products"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-blue-900"
             >
               {products}
             </a>
@@ -35,7 +35,7 @@ export default async function Footer() {
           <div className="px-5 py-2">
             <a
               href="#pricing"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-blue-900"
             >
               {pricing}
             </a>
@@ -43,7 +43,7 @@ export default async function Footer() {
           <div className="px-5 py-2">
             <a
               href="#contact"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-blue-900"
             >
               {contact}
             </a>
@@ -51,26 +51,26 @@ export default async function Footer() {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-blue-900"
             >
               {terms}
             </a>
           </div>
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="#" className="text-gray-400 hover:text-blue-500">
             <span className="sr-only">Facebook</span>
             <FontAwesomeIcon icon={faFacebook} className="w-6 h-6" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="#" className="text-gray-400 hover:text-blue-500">
             <span className="sr-only">Instagram</span>
             <FontAwesomeIcon icon={faInstagram} className="w-6 h-6" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="#" className="text-gray-400 hover:text-blue-500">
             <span className="sr-only">Twitter</span>
             <FontAwesomeIcon icon={faXTwitter} className="w-6 h-6" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="#" className="text-gray-400 hover:text-blue-500">
             <span className="sr-only">GitHub</span>
             <FontAwesomeIcon icon={faGithub} className="w-6 h-6" />
           </a>

@@ -10,7 +10,7 @@ export default async function ProductsSection() {
   return (
     <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8" id="products">
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-base/7 font-semibold text-indigo-500">
+        <h2 className="text-base/7 font-semibold text-blue-500">
           {optional_text}
         </h2>
         <p className="mt-2 text-5xl font-semibold tracking-tight text-balance sm:text-6xl">
@@ -24,7 +24,7 @@ export default async function ProductsSection() {
         {cards.map((card, key) => (
           <div
             key={key}
-            className="relative flex max-w-[500] h-full flex-col shadow-2xl rounded-2xl ring-1 ring-gray-900/10 dark:ring-indigo-400/40"
+            className="relative flex max-w-[500] h-full flex-col shadow-2xl rounded-2xl ring-1 ring-gray-900/10 dark:ring-blue-400/40"
           >
             <Image
               src="/about-image.svg"
@@ -34,16 +34,21 @@ export default async function ProductsSection() {
               className="drop-shadow-three rounded-t-2xl"
             />
             <div className="p-6">
-              <Link href={`/products/${key + 1}`} className="text-indigo-400 text-xl font-semibold">
+              <Link
+                href={`/products/${key + 1}`}
+                className="text-blue-400 text-xl font-semibold"
+              >
                 {card.name}
               </Link>
               <p className="mt-2 text-base/7">{card.description}</p>
-              <p className="mt-2 flex items-baseline gap-x-2 text-lg font-semibold">{card.price}</p>
+              <p className="mt-2 flex items-baseline gap-x-2 text-lg font-semibold">
+                {card.price}
+              </p>
             </div>
 
             {/* <a
               href="#"
-              className="mt-auto bg-indigo-500 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-indigo-500 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2"
+              className="mt-auto bg-blue-500 text-white shadow-xs hover:bg-blue-400 focus-visible:outline-blue-500 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               Get started today
             </a> */}

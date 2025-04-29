@@ -1,7 +1,6 @@
 {
   "components": {
     "header": {
-      "company": "Your Company",
       "home": "Home",
       "about": "About",
       "contact": "Contact",

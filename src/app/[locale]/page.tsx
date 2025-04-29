@@ -4,13 +4,13 @@ import GridSection from "@/components/home/GridSection";
 import CarouselSection from "@/components/home/CarouselSection";
 import PricingSection from "@/components/home/PricingSection";
 import ProductsSection from "@/components/home/ProductsSection";
-import HeroSection from "@/components/home/HeroSection";
+// import HeroSection from "@/components/home/HeroSection";
 import LogoClouds from "@/components/home/LogoClouds";
 import Testimonials from "@/components/home/Testimonials";
 import Contact from "@/components/home/Contact";
 import { getTypedMessages } from "@/lib/messages";
 import { Metadata } from "next";
-// import HeroSectionImageRight from "@/components/home/HeroSectionImageRight";
+import HeroSectionImageRight from "@/components/home/HeroSectionImageRight";
 
 export async function generateMetadata({
   params,
@@ -36,8 +36,8 @@ export async function generateMetadata({
 export default async function Home() {
   return (
     <main>
-      <HeroSection />
-      {/* <HeroSectionImageRight /> */}
+      {/* <HeroSection /> */}
+      <HeroSectionImageRight />
       <FeatureSection />
       <FactsSection />
       <LogoClouds />

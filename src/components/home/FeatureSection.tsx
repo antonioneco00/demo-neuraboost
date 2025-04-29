@@ -24,7 +24,7 @@ export default async function FeatureSection() {
                     <dt className="inline font-semibold dark:text-gray-300 text-gray-900">
                       <feature.icon
                         aria-hidden="true"
-                        className="absolute top-1 left-1 size-5 text-indigo-600"
+                        className="absolute top-1 left-1 size-5 text-blue-600"
                       />
                       {feature.name}
                     </dt>{" "}

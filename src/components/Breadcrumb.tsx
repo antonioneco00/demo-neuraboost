@@ -52,7 +52,7 @@ export default function Breadcrumb() {
         {messages[firstSegment].title}
       </h1>
       <div className="inline-flex mt-8 text-lg font-medium font-sans text-pretty text-gray-500">
-        <Link href="/" className="text-indigo-400">
+        <Link href="/" className="text-blue-400">
           {messages.home.title}
         </Link>
         {breadcrumbItems.map((item, index) => (
@@ -61,7 +61,7 @@ export default function Breadcrumb() {
             {index === breadcrumbItems.length - 1 ? (
               <span>{item.label}</span>
             ) : (
-              <Link href={item.path} className="text-indigo-400">
+              <Link href={item.path} className="text-blue-400">
                 {item.label}
               </Link>
             )}

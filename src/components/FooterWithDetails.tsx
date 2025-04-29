@@ -34,7 +34,6 @@ export default async function FooterWithDetails({
     email,
     copyright,
   } = (await getTypedMessages()).components.footer;
-  const { company } = (await getTypedMessages()).components.header;
   const { introduction } = (await getTypedMessages()).home;
 
   return (
@@ -48,31 +47,30 @@ export default async function FooterWithDetails({
                 className="mb-4 sm:mb-8 inline-flex items-center w-fit"
               >
                 <Image
-                  src="/logo.svg"
+                  src="/logo.png"
                   alt="logo"
                   width={32}
                   height={32}
                   className="size-9"
                 />
-                <h1 className="font-mono ml-2">{company}</h1>
               </Link>
               <p className="mb-4 sm:mb-8 text-base text-gray-400 leading-relaxed">
                 {introduction}
               </p>
               <div className="flex justify-center sm:justify-start mt-4 space-x-6">
-                <a href="#" className="text-gray-400 hover:text-gray-500">
+                <a href="#" className="text-gray-400 hover:text-blue-500">
                   <span className="sr-only">Facebook</span>
                   <FontAwesomeIcon icon={faFacebook} className="w-6 h-6" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-gray-500">
+                <a href="#" className="text-gray-400 hover:text-blue-500">
                   <span className="sr-only">Instagram</span>
                   <FontAwesomeIcon icon={faInstagram} className="w-6 h-6" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-gray-500">
+                <a href="#" className="text-gray-400 hover:text-blue-500">
                   <span className="sr-only">Twitter</span>
                   <FontAwesomeIcon icon={faXTwitter} className="w-6 h-6" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-gray-500">
+                <a href="#" className="text-gray-400 hover:text-blue-500">
                   <span className="sr-only">YouTube</span>
                   <FontAwesomeIcon icon={faYoutube} className="w-6 h-6" />
                 </a>
@@ -82,14 +80,12 @@ export default async function FooterWithDetails({
 
           <div className="w-full px-4 sm:w-1/2 lg:w-1/3 text-center">
             <div className="mb-2">
-              <h2 className="mb-4 text-xl font-bold">
-                {links}
-              </h2>
+              <h2 className="mb-4 text-xl font-bold">{links}</h2>
               <ul>
                 <li>
                   <Link
                     href="/about"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-blue-400"
                   >
                     {about}
                   </Link>
@@ -97,7 +93,7 @@ export default async function FooterWithDetails({
                 <li>
                   <Link
                     href="/products"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-blue-400"
                   >
                     {products}
                   </Link>
@@ -105,7 +101,7 @@ export default async function FooterWithDetails({
                 <li>
                   <Link
                     href="/#pricing"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-blue-400"
                   >
                     {pricing}
                   </Link>
@@ -113,7 +109,7 @@ export default async function FooterWithDetails({
                 <li>
                   <Link
                     href="/contact"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-blue-400"
                   >
                     {contact}
                   </Link>
@@ -121,7 +117,7 @@ export default async function FooterWithDetails({
                 <li>
                   <Link
                     href="/"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-blue-400"
                   >
                     {terms}
                   </Link>
@@ -132,9 +128,7 @@ export default async function FooterWithDetails({
 
           <div className="w-full px-4 lg:w-1/3 text-center">
             <div className="mb-2">
-              <h2 className="mb-4 text-xl font-bold">
-                {info}
-              </h2>
+              <h2 className="mb-4 text-xl font-bold">{info}</h2>
               <ul className="flex flex-col w-fit mx-auto text-left">
                 <li className="flex items-center space-x-2 mb-4">
                   <MapPinIcon className="w-6" />
@@ -148,7 +142,7 @@ export default async function FooterWithDetails({
                 </li>
                 <li className="flex items-center space-x-2 mb-4">
                   <PhoneIcon className="w-6" />
-                  <span className="inline-block text-base duration-300 hover:text-gray-400">
+                  <span className="inline-block text-base duration-300 hover:text-blue-400">
                     <a
                       href={
                         locale === "es" ? `tel:+34${phone}` : `tel:+1${phone}`
@@ -160,7 +154,7 @@ export default async function FooterWithDetails({
                 </li>
                 <li className="flex items-center space-x-2 mb-4">
                   <EnvelopeIcon className="w-6" />
-                  <span className="inline-block text-base duration-300 hover:text-gray-400">
+                  <span className="inline-block text-base duration-300 hover:text-blue-400">
                     <a href={`mailto:${email}`}>{email}</a>
                   </span>
                 </li>

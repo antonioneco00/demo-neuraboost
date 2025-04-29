@@ -1,28 +1,26 @@
 import { Link } from "@/i18n/navigation";
-import { getTypedMessages } from "@/lib/messages";
 import Image from "next/image";
 
 export default async function BrandLogo() {
-  const { company } = (await getTypedMessages()).components.header;
 
   return (
     <div className="flex lg:flex-1">
       {/* Icon logo + text */}
       <Link
         href="/"
-        className="flex items-center hover:text-gray-400 transition-colors duration-500"
+        className="flex items-center hover:text-blue-400 transition-colors duration-500"
       >
         <Image
           alt=""
-          src="/logo.svg"
+          src="/logo.PNG"
           width={32}
           height={32}
           className="size-9"
         />
-        <h1 className="font-mono ml-2">{company}</h1>
+        <h1 className="font-mono text-xl font-semibold ml-2">NeuraBoost</h1>
       </Link>
       {/* Image logo */}
-      {/* <Link href="/" className="-m-1.5 flex items-center hover:text-gray-400">
+      {/* <Link href="/" className="-m-1.5 flex items-center hover:text-blue-400">
         <Image
           alt="Sponsor"
           src="/sponsor.svg"

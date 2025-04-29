@@ -9,8 +9,21 @@ import { ContactFormData, Messages } from "@/types";
 export default function Contact() {
   const { title, description, form } = (useMessages() as Messages).home.sections
     .contact;
-  const { name, email, message, button, required, sending, success, errors: errorMessages } = form;
-  const { name: requiredName, email: requiredEmail, message: requiredMessage } = required;
+  const {
+    name,
+    email,
+    message,
+    button,
+    required,
+    sending,
+    success,
+    errors: errorMessages,
+  } = form;
+  const {
+    name: requiredName,
+    email: requiredEmail,
+    message: requiredMessage,
+  } = required;
   const { invalid_email, try_again } = errorMessages;
 
   const {
@@ -66,7 +79,7 @@ export default function Contact() {
               <input
                 id="name"
                 {...register("name", { required: requiredName })}
-                className="block w-full dark:bg-gray-900 rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 dark:outline-gray-800 placeholder:text-gray-400 focus:outline-indigo-600"
+                className="block w-full dark:bg-gray-900 rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 dark:outline-gray-800 placeholder:text-gray-400 focus:outline-blue-600"
               />
               {errors.name && (
                 <p className="mt-1 text-sm text-red-500">
@@ -91,7 +104,7 @@ export default function Contact() {
                     message: invalid_email,
                   },
                 })}
-                className="block w-full dark:bg-gray-900 rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 dark:outline-gray-800 placeholder:text-gray-400 focus:outline-indigo-600"
+                className="block w-full dark:bg-gray-900 rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 dark:outline-gray-800 placeholder:text-gray-400 focus:outline-blue-600"
               />
               {errors.email && (
                 <p className="mt-1 text-sm text-red-500">
@@ -110,7 +123,7 @@ export default function Contact() {
                 id="message"
                 rows={4}
                 {...register("message", { required: requiredMessage })}
-                className="block w-full dark:bg-gray-900 rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 dark:outline-gray-800 placeholder:text-gray-400 focus:outline-indigo-600"
+                className="block w-full dark:bg-gray-900 rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 dark:outline-gray-800 placeholder:text-gray-400 focus:outline-blue-600"
               />
               {errors.message && (
                 <p className="mt-1 text-sm text-red-500">
@@ -125,16 +138,14 @@ export default function Contact() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white hover:bg-indigo-500 focus-visible:outline-indigo-600"
+            className="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white hover:bg-blue-500 focus-visible:outline-blue-600"
           >
             {isSubmitting ? sending : button}
           </button>
         </div>
 
         {isSubmitSuccessful && !error && (
-          <p className="mt-4 text-green-600 text-center">
-            {success}
-          </p>
+          <p className="mt-4 text-green-600 text-center">{success}</p>
         )}
         {error && <p className="mt-4 text-red-600 text-center">{error}</p>}
       </form>

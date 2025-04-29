@@ -1,7 +1,6 @@
 {
   "components": {
     "header": {
-      "company": "Tu compañía",
       "home": "Inicio",
       "about": "Acerca de",
       "contact": "Contacto",

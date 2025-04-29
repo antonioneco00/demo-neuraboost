@@ -5,7 +5,21 @@ export default async function HeroSectionImageRight() {
   const { welcome, introduction, button } = (await getTypedMessages()).home;
 
   return (
-    <div className="flex overflow-hidden bg-background py-24 sm:py-32">
+    <div className="flex overflow-hidden py-24 sm:py-32">
+      <Image
+        src="./hero-wave-top.svg"
+        alt=""
+        width={0}
+        height={0}
+        className="absolute top-0 size-auto -z-10"
+      />
+      <Image
+        src="./hero-wave-bottom.svg"
+        alt=""
+        width={0}
+        height={0}
+        className="absolute bottom-0 right-0 size-auto -z-10"
+      />
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:grid-cols-2">
           <div className="lg:pr-8 max-w-xl lg:max-w-none flex flex-col justify-center">
@@ -20,7 +34,7 @@ export default async function HeroSectionImageRight() {
             <div className="mt-10 gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 {button}
               </a>

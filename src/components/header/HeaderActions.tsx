@@ -28,7 +28,7 @@ export default function HeaderActions() {
       <div className="flex">
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="text-sm/6 font-semibold rounded-full hover:text-gray-400 transition-colors duration-500 cursor-pointer"
+          className="text-sm/6 font-semibold rounded-full hover:text-blue-400 transition-colors duration-500 cursor-pointer"
           aria-label="Toggle theme"
         >
           {theme === "dark" ? (
@@ -38,7 +38,7 @@ export default function HeaderActions() {
           )}
         </button>
       </div>
-      <div className="flex mx-2 lg:ml-2 lg:mx-0 text-lg hover:text-gray-400 transition-colors duration-500">
+      <div className="flex mx-2 lg:ml-2 lg:mx-0 text-lg hover:text-blue-400 transition-colors duration-500">
         <Link href={path} locale={nextLocale}>
           {locale?.toString().toUpperCase()}
         </Link>

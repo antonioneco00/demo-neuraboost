@@ -26,10 +26,10 @@ export default async function CarouselSection() {
                       key={index}
                       className="flex items-center text-lg font-medium"
                     >
-                      <span className="mr-4 flex h-[30px] w-[30px] min-w-[30px] bg-indigo-100 dark:bg-indigo-950 items-center justify-center rounded-md">
+                      <span className="mr-4 flex h-[30px] w-[30px] min-w-[30px] bg-blue-100 dark:bg-blue-950 items-center justify-center rounded-md">
                         <CheckIcon
                           aria-hidden="true"
-                          className="size-6 text-indigo-600 dark:text-indigo-400"
+                          className="size-6 text-blue-600 dark:text-blue-400"
                         />
                       </span>
                       {item}

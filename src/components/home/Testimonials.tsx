@@ -16,7 +16,7 @@ export default async function Testimonials() {
         {clients.map((client, id) => (
           <div
             key={client.name}
-            className="relative flex h-full flex-col shadow-2xl rounded-3xl p-8 ring-1 ring-gray-900/10 dark:ring-indigo-400/40 sm:p-10"
+            className="relative flex h-full flex-col shadow-2xl rounded-3xl p-8 ring-1 ring-gray-900/10 dark:ring-blue-400/40 sm:p-10"
           >
             <p className="text-lg text-gray-500 font-sans mb-3">
               “{client.quote}”
@@ -31,7 +31,7 @@ export default async function Testimonials() {
                 />
               </div>
               <div>
-                <h3 className="text-indigo-400 text-base/7 font-semibold">
+                <h3 className="text-blue-400 text-base/7 font-semibold">
                   {client.name}
                 </h3>
                 <p className="mt-0.5 text-base/7">{client.description}</p>
