@@ -1,0 +1,254 @@
+{
+  "components": {
+    "header": {
+      "company": "Tu compañía",
+      "home": "Inicio",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "products": "Productos"
+    },
+    "footer": {
+      "links": "Enlaces",
+      "about": "Acerca de",
+      "products": "Productos",
+      "pricing": "Precios",
+      "contact": "Contacto",
+      "terms": "Términos",
+      "info": "Información de la compañía",
+      "street": "Calle Pepe Pépez, 123",
+      "city": "1XXXX Madrid",
+      "country": "España",
+      "phone": "666 66 66 66",
+      "email": "info@tuempresa.es",
+      "copyright": "© 2025 Tu Compañía S.A. Todos los derechos reservados."
+    }
+  },
+  "home": {
+    "title": "Inicio",
+    "metadata": {
+      "title": "Inicio",
+      "description": "Bienvenido a nuestra página de inicio. Aquí encontrarás información sobre nuestros productos y servicios."
+    },
+    "welcome": "Hola Mundo",
+    "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec.",
+    "button": "Comenzar",
+    "sections": {
+      "features": {
+        "title": "Funciones Principales",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "items": [
+          {
+            "name": "Característica 1.",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+          },
+          {
+            "name": "Característica 2.",
+            "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo."
+          },
+          {
+            "name": "Característica 3.",
+            "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
+          }
+        ]
+      },
+      "facts": {
+        "items": [
+          {
+            "fact": "Hecho 1",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "fact": "Hecho 2",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+          },
+          {
+            "fact": "Hecho 3",
+            "desc": "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt consectetur adipiscing elit setim."
+          }
+        ]
+      },
+      "logo_clouds": "Nuestros Clientes",
+      "grid": {
+        "optional_text": "Texto Opcional",
+        "title": "Funciones en Grid",
+        "description": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.",
+        "items": [
+          {
+            "name": "Ítem 1",
+            "description": "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa."
+          },
+          {
+            "name": "Ítem 2",
+            "description": "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet."
+          },
+          {
+            "name": "Ítem 3",
+            "description": "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque."
+          },
+          {
+            "name": "Ítem 4",
+            "description": "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget."
+          },
+          {
+            "name": "Ítem 5",
+            "description": "Donec nec dolor fringilla, sagittis tortor ac, sollicitudin justo. Cras vel efficitur arcu. Sed luctus lacus mi, et vulputate purus aliquam at."
+          },
+          {
+            "name": "Ítem 6",
+            "description": "Aenean pharetra tellus id suscipit posuere. Aenean elit odio, fringilla in elit vitae, tincidunt consectetur lorem."
+          }
+        ]
+      },
+      "carousel": {
+        "title": "Sección Carrusel",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "items": [
+          "Ventaja 1",
+          "Ventaja 2",
+          "Ventaja 3",
+          "Ventaja 4",
+          "Ventaja 5",
+          "Ventaja 6"
+        ]
+      },
+      "pricing": {
+        "optional_text": "Precios",
+        "title": "Elige tu plan",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "tiers": [
+          {
+            "name": "Plan 1",
+            "description": "Morbi viverra dui mi arcu sed.",
+            "price": "$29",
+            "features": [
+              "Característica 1",
+              "Característica 2",
+              "Característica 3",
+              "Característica 4"
+            ]
+          },
+          {
+            "name": "Plan 2",
+            "description": "Nullam auctor, nunc nec.",
+            "price": "$69",
+            "features": [
+              "Característica 1",
+              "Característica 2",
+              "Característica 3",
+              "Característica 4",
+              "Característica 5"
+            ]
+          },
+          {
+            "name": "Plan 3",
+            "description": "Quisque est vel vulputate cursus.",
+            "price": "$99",
+            "features": [
+              "Característica 1",
+              "Característica 2",
+              "Característica 3",
+              "Característica 4",
+              "Característica 5",
+              "Característica 6"
+            ]
+          }
+        ]
+      },
+      "products": {
+        "optional_text": "Productos",
+        "title": "Nuestros Productos",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "cards": [
+          {
+            "name": "Producto 1",
+            "description": "Primer producto.",
+            "price": "$29"
+          },
+          {
+            "name": "Producto 2",
+            "description": "Está bien.",
+            "price": "$49"
+          },
+          {
+            "name": "Producto 3",
+            "description": "La bomba.",
+            "price": "$69"
+          },
+          {
+            "name": "Producto 4",
+            "description": "Lo máximo.",
+            "price": "$99"
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Testimonios",
+        "clients": [
+          {
+            "name": "Cliente 1",
+            "description": "CEO de My Company",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra tellus id suscipit posuere."
+          },
+          {
+            "name": "Cliente 2",
+            "description": "CEO de Another Company",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+          },
+          {
+            "name": "Cliente 3",
+            "description": "CEO de Last Company",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. Quis tellus eget adipiscing convallis sit sit eget aliquet quis."
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contacto",
+        "description": "Aute magna irure deserunt veniam aliqua magna enim voluptate.",
+        "form": {
+          "name": "Nombre",
+          "email": "Email",
+          "message": "Mensaje",
+          "button": "Enviar",
+          "sending": "Enviando...",
+          "success": "Mensaje enviado con éxito",
+          "required": {
+            "name": "Campo requerido",
+            "email": "Campo requerido",
+            "message": "Campo requerido"
+          },
+          "errors": {
+            "invalid_email": "Email inválido",
+            "try_again": "Error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
+          }
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "Acerca de",
+    "metadata": {
+      "title": "Sobre Nosotros",
+      "description": "Aprenda más acerca de nuestra compañía y lo que hacemos."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "metadata": {
+      "title": "Contacto",
+      "description": "Contáctenos para más información sobre nuestros productos y servicios."
+    }
+  },
+  "products": {
+    "title": "Productos",
+    "metadata": {
+      "title": "Productos",
+      "description": "Descubre nuestros productos y servicios."
+    },
+    "details": {
+      "metadata": {
+        "title": "Detalles del producto",
+        "description": "Detalles del producto seleccionado."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+import { CheckIcon } from "@heroicons/react/20/solid";
+import { getTypedMessages } from "@/lib/messages";
+
+export async function getFeatures() {
+  const { items } = (await getTypedMessages()).home.sections.features;
+  const icons = [CheckIcon, CheckIcon, CheckIcon];
+
+  return items.map((feature, index) => ({
+    name: feature.name,
+    description: feature.description,
+    icon: icons[index],
+  }));
+}
+
+export async function getGridFeatures() {
+  const { items } = (await getTypedMessages()).home.sections.grid;
+  const icons = [
+    CheckIcon,
+    CheckIcon,
+    CheckIcon,
+    CheckIcon,
+    CheckIcon,
+    CheckIcon,
+  ];
+
+  return items.map((feature, index) => ({
+    name: feature.name,
+    description: feature.description,
+    icon: icons[index],
+  }));
+}

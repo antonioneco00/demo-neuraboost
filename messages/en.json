@@ -1,0 +1,249 @@
+{
+  "components": {
+    "header": {
+      "company": "Your Company",
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "products": "Products"
+    },
+    "footer": {
+      "links": "Links",
+      "about": "About",
+      "products": "Products",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "terms": "Terms",
+      "info": "Company Info",
+      "street": "123 Pepe Pepez Street",
+      "city": "1XXXX Madrid",
+      "country": "Spain",
+      "phone": "555-555-5555",
+      "email": "info@yourcompany.com",
+      "copyright": "© 2025 Your Company, Inc. All rights reserved."
+    }
+  },
+  "home": {
+    "title": "Home",
+    "metadata": {
+      "title": "Home",
+      "description": "Welcome to our homepage. Here you will find information about our products and services."
+    },
+    "welcome": "Hello World",
+    "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec.",
+    "button": "Get started",
+    "sections": {
+      "features": {
+        "title": "Main Features",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "items": [
+          {
+            "name": "Feature 1.",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+          },
+          {
+            "name": "Feature 2.",
+            "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo."
+          },
+          {
+            "name": "Feature 3.",
+            "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
+          }
+        ]
+      },
+      "facts": {
+        "items": [
+          {
+            "fact": "Fact 1",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "fact": "Fact 2",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+          },
+          {
+            "fact": "Fact 3",
+            "desc": "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt consectetur adipiscing elit setim."
+          }
+        ]
+      },
+      "logo_clouds": "Our Clients",
+      "grid": {
+        "optional_text": "Optional Text",
+        "title": "Grid Features",
+        "description": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.",
+        "items": [
+          {
+            "name": "Item 1",
+            "description": "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa."
+          },
+          {
+            "name": "Item 2",
+            "description": "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet."
+          },
+          {
+            "name": "Item 3",
+            "description": "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque."
+          },
+          {
+            "name": "Item 4",
+            "description": "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget."
+          },
+          {
+            "name": "Item 5",
+            "description": "Donec nec dolor fringilla, sagittis tortor ac, sollicitudin justo. Cras vel efficitur arcu. Sed luctus lacus mi, et vulputate purus aliquam at."
+          },
+          {
+            "name": "Item 6",
+            "description": "Aenean pharetra tellus id suscipit posuere. Aenean elit odio, fringilla in elit vitae, tincidunt consectetur lorem."
+          }
+        ]
+      },
+      "carousel": {
+        "title": "Carousel Section",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "items": [
+          "Ventaja 1",
+          "Ventaja 2",
+          "Ventaja 3",
+          "Ventaja 4",
+          "Ventaja 5",
+          "Ventaja 6"
+        ]
+      },
+      "pricing": {
+        "optional_text": "Pricing",
+        "title": "Choose the right plan for you",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "tiers": [
+          {
+            "name": "Plan 1",
+            "description": "Morbi viverra dui mi arcu sed.",
+            "price": "$29",
+            "features": ["Feature 1", "Feature 2", "Feature 3", "Feature 4"]
+          },
+          {
+            "name": "Plan 2",
+            "description": "Nullam auctor, nunc nec.",
+            "price": "$69",
+            "features": [
+              "Feature 1",
+              "Feature 2",
+              "Feature 3",
+              "Feature 4",
+              "Feature 5"
+            ]
+          },
+          {
+            "name": "Plan 3",
+            "description": "Quisque est vel vulputate cursus.",
+            "price": "$99",
+            "features": [
+              "Feature 1",
+              "Feature 2",
+              "Feature 3",
+              "Feature 4",
+              "Feature 5",
+              "Feature 6"
+            ]
+          }
+        ]
+      },
+      "products": {
+        "optional_text": "Products",
+        "title": "Our Products",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "cards": [
+          {
+            "name": "Product 1",
+            "description": "First product.",
+            "price": "$29"
+          },
+          {
+            "name": "Product 2",
+            "description": "Good one.",
+            "price": "$29"
+          },
+          {
+            "name": "Product 3",
+            "description": "Better one.",
+            "price": "$69"
+          },
+          {
+            "name": "Product 4",
+            "description": "Perfection.",
+            "price": "$99"
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Testimonials",
+        "clients": [
+          {
+            "name": "Client 1",
+            "description": "CEO of My Company",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra tellus id suscipit posuere."
+          },
+          {
+            "name": "Client 2",
+            "description": "CEO of Another Company",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+          },
+          {
+            "name": "Client 3",
+            "description": "CEO of Last Company",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. Quis tellus eget adipiscing convallis sit sit eget aliquet quis."
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Aute magna irure deserunt veniam aliqua magna enim voluptate.",
+        "form": {
+          "name": "Name",
+          "email": "Email",
+          "message": "Message",
+          "button": "Send",
+          "sending": "Sending...",
+          "success": "Message sent successfully!",
+          "required": {
+            "name": "Name is required",
+            "email": "Email is required",
+            "message": "Message is required"
+          },
+          "errors": {
+            "invalid_email": "Email is invalid",
+            "try_again": "Something went wrong. Please try again."
+          }
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "About",
+    "metadata": {
+      "title": "About Us",
+      "description": "Learn more about our company and values"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "metadata": {
+      "title": "Contact",
+      "description": "Get in touch with us"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "metadata": {
+      "title": "Products",
+      "description": "Explore our range of products"
+    },
+    "details": {
+      "metadata": {
+        "title": "Product Details",
+        "description": "Selected product details"
+      }
+    }
+  }
+}
