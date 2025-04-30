@@ -1,13 +1,12 @@
 import { getTypedMessages } from "@/lib/messages";
-import Image from "next/image";
 import HeroVideo from "@/components/video/HeroVideo";
 
 export default async function HeroSection() {
   const { welcome, introduction, button } = (await getTypedMessages()).home;
 
   return (
-    <div className="flex overflow-hidden py-30 sm:py-44">
-      <Image
+    <div className="flex overflow-hidden py-10 sm:py-14 lg:py-44">
+      {/* <Image
         src="/hero-wave-top.svg"
         alt=""
         width={0}
@@ -20,17 +19,17 @@ export default async function HeroSection() {
         width={0}
         height={0}
         className="absolute bottom-0 right-0 size-auto -z-10"
-      />
+      /> */}
+      <div className="absolute top-0 -z-10 size-full bg-[url(/circuit-board.svg)]" />
+      <div className="absolute top-0 left-0 size-full -z-5 bg-radial from-background from-80% sm:from-75% md:from-70% lg:from-65% xl:from-60% to-transparent"/>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:grid-cols-2">
-          <div className="lg:pr-8 max-w-xl lg:max-w-none flex flex-col justify-center">
-            <h2 className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
+          <div className="lg:pr-8 max-w-xl lg:max-w-none px-4 mx-auto lg:mx-0 rounded-sm flex flex-col justify-center">
+            <h2 className="mt-2 text-4xl font-roboto font-semibold tracking-tight text-pretty sm:text-5xl">
               {welcome}
             </h2>
             <p className="mt-6 text-lg/8 text-gray-500">
-              {introduction} Anim aute id magna aliqua ad ad non deserunt sunt.
-              Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat
-              veniam occaecat fugiat aliqua.
+              {introduction}
             </p>
             <div className="mt-10 gap-x-6">
               <a
@@ -41,7 +40,7 @@ export default async function HeroSection() {
               </a>
             </div>
           </div>
-          <div className="h-[333px]">
+          <div className="max-w-xl lg:max-w-2xl">
             {/* <video
               width="592"
               height="333"
