@@ -24,7 +24,7 @@ export default async function FooterWithDetails({
     about,
     contact,
     pricing,
-    products,
+    programs,
     terms,
     info,
     street,
@@ -92,10 +92,10 @@ export default async function FooterWithDetails({
                 </li>
                 <li>
                   <Link
-                    href="/products"
+                    href="/programs"
                     className="mb-4 inline-block text-base duration-300 hover:text-blue-400"
                   >
-                    {products}
+                    {programs}
                   </Link>
                 </li>
                 <li>

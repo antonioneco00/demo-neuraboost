@@ -8,7 +8,7 @@ import {
 import { getTypedMessages } from "@/lib/messages";
 
 export default async function Footer() {
-  const { about, contact, pricing, products, terms, copyright } = (
+  const { about, contact, pricing, programs, terms, copyright } = (
     await getTypedMessages()
   ).components.footer;
 
@@ -26,10 +26,10 @@ export default async function Footer() {
           </div>
           <div className="px-5 py-2">
             <a
-              href="#products"
+              href="#programs"
               className="text-base leading-6 text-gray-500 hover:text-blue-900"
             >
-              {products}
+              {programs}
             </a>
           </div>
           <div className="px-5 py-2">

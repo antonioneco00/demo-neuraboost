@@ -1,4 +1,4 @@
-import ProductsSection from "@/components/home/ProductsSection";
+import ProgramsSection from "@/components/home/ProgramsSection";
 import { getTypedMessages } from "@/lib/messages";
 import { Metadata } from "next";
 
@@ -8,7 +8,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const { title, description } = (await getTypedMessages()).products.metadata;
+  const { title, description } = (await getTypedMessages()).programs.metadata;
 
   return {
     title,
@@ -23,6 +23,6 @@ export async function generateMetadata({
   };
 }
 
-export default async function Products() {
-  return <ProductsSection />;
+export default async function Programs() {
+  return <ProgramsSection />;
 }

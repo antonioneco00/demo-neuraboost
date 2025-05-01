@@ -9,9 +9,8 @@ import { useMessages } from "next-intl";
 import Image from "next/image";
 
 export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
-  const { home, about, contact, products } = (
-    useMessages() as Messages
-  ).components.header;
+  const { home, about, contact, programs } = (useMessages() as Messages)
+    .components.header;
 
   return (
     <Dialog open={isOpen} onClose={setIsOpen} className="lg:hidden">
@@ -70,11 +69,11 @@ export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
                 {contact}
               </a> */}
               <Link
-                href="/products"
+                href="/programs"
                 className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50"
                 onClick={() => setIsOpen(false)}
               >
-                {products}
+                {programs}
               </Link>
             </div>
           </div>

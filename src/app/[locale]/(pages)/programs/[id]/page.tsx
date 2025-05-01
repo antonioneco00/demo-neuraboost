@@ -8,7 +8,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const { title, description } = (await getTypedMessages()).products.details
+  const { title, description } = (await getTypedMessages()).programs.details
     .metadata;
 
   return {
@@ -24,13 +24,13 @@ export async function generateMetadata({
   };
 }
 
-export default async function ProductDetails({
+export default async function ProgramDetails({
   params,
 }: {
   params: Promise<{ locale: string; id: number }>;
 }) {
   const { locale, id } = await params;
-  const product = (await getTypedMessages()).home.sections.products.cards[
+  const product = (await getTypedMessages()).home.sections.programs.cards[
     id - 1
   ];
   const { name, description, price } = product;

@@ -4,12 +4,12 @@
       "home": "Home",
       "about": "About",
       "contact": "Contact",
-      "products": "Products"
+      "programs": "Programs"
     },
     "footer": {
       "links": "Links",
       "about": "About",
-      "products": "Products",
+      "programs": "Programs",
       "pricing": "Pricing",
       "contact": "Contact",
       "terms": "Terms",
@@ -26,27 +26,27 @@
     "title": "Home",
     "metadata": {
       "title": "Home",
-      "description": "Welcome to our homepage. Here you will find information about our products and services."
+      "description": "Welcome to our homepage. Here you will find information about our programs and services."
     },
     "welcome": "Supercharge Your Brain with NeuraBoost",
     "introduction": "Unlock your full cognitive potential with our AI-powered brain training programs. Designed by neuroscientists. Backed by data. Built for results.",
     "button": "Join Now",
     "sections": {
       "features": {
-        "title": "Main Features",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "title": "Empowering Minds Through Innovation",
+        "description": "At NeuraBoost, we believe that cognitive enhancement should be accessible, science-driven, and inspiring.",
         "items": [
           {
-            "name": "Feature 1.",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+            "name": "Latest neuroscience research.",
+            "description": "Our solutions are built on cutting-edge neuroscience discoveries."
           },
           {
-            "name": "Feature 2.",
-            "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo."
+            "name": "Experienced neuroscientists and AI engineers.",
+            "description": "Our team combines expertise in neuroscience and artificial intelligence."
           },
           {
-            "name": "Feature 3.",
-            "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
+            "name": "Cutting-edge artificial intelligence.",
+            "description": "Advanced AI algorithms adapt to your progress."
           }
         ]
       },
@@ -148,30 +148,25 @@
           }
         ]
       },
-      "products": {
-        "optional_text": "Products",
-        "title": "Our Products",
+      "programs": {
+        "optional_text": "Programs",
+        "title": "Our Programs",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
         "cards": [
           {
-            "name": "Product 1",
-            "description": "First product.",
-            "price": "$29"
+            "name": "NeuroPerformance",
+            "description": "A high-intensity cognitive training program that blends physical movement with mental agility.",
+            "duration": "45 minutes"
           },
           {
-            "name": "Product 2",
-            "description": "Good one.",
-            "price": "$29"
+            "name": "MindBalance",
+            "description": "A relaxing program to reduce stress and restore mental clarity.",
+            "duration": "60 minutes"
           },
           {
-            "name": "Product 3",
-            "description": "Better one.",
-            "price": "$69"
-          },
-          {
-            "name": "Product 4",
-            "description": "Perfection.",
-            "price": "$99"
+            "name": "Cognitive Core",
+            "description": "Designed to strengthen memory, focus, and executive functions.",
+            "duration": "30 minutes"
           }
         ]
       },
@@ -232,15 +227,15 @@
       "description": "Get in touch with us"
     }
   },
-  "products": {
-    "title": "Products",
+  "programs": {
+    "title": "Programs",
     "metadata": {
-      "title": "Products",
-      "description": "Explore our range of products"
+      "title": "Programs",
+      "description": "Explore our range of programs"
     },
     "details": {
       "metadata": {
-        "title": "Product Details",
+        "title": "Program Details",
         "description": "Selected product details"
       }
     }

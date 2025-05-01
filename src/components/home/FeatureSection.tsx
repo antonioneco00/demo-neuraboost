@@ -9,9 +9,23 @@ export default async function FeatureSection() {
   const features = await getFeatures();
 
   return (
-    <div className="overflow-hidden bg-background py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+    <div className="relative overflow-hidden bg-background py-24 sm:py-32">
+      <Image
+        src="/abstract-svg/feature-corner.svg"
+        alt="abstract corner image"
+        width={0}
+        height={0}
+        className="absolute size-auto bottom-0 right-0"
+      />
+      <div className="mx-auto max-w-[84rem] px-6 lg:px-8">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <Image
+            src="/about-image.png"
+            alt="about image"
+            width={500}
+            height={500}
+            className="w-auto h-auto object-contain drop-shadow-three rounded-tl-3xl my-auto shadow-[-10px_10px_0] shadow-blue-500/60 z-10"
+          />
           <div className="lg:pr-8">
             <div className="lg:max-w-lg">
               <h2 className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
@@ -34,14 +48,6 @@ export default async function FeatureSection() {
               </dl>
             </div>
           </div>
-          <Image
-            alt="Product screenshot"
-            src="/product-screenshot.png"
-            width={2432}
-            height={1442}
-            className="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            priority
-          />
         </div>
       </div>
     </div>

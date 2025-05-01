@@ -21,7 +21,7 @@ export default async function FactsSection() {
             />
             {/*  Eliminar aspect-[25/24] max-w-[500px] en la clase del div padre */}
             {/* <Image
-              alt="Product screenshot"
+              alt="Program screenshot"
               src="/product-screenshot.png"
               width={2432}
               height={1442}

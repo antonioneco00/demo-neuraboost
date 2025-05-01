@@ -1,9 +1,9 @@
-import { CheckIcon } from "@heroicons/react/20/solid";
+import { AcademicCapIcon, CheckIcon, CogIcon, CpuChipIcon } from "@heroicons/react/20/solid";
 import { getTypedMessages } from "@/lib/messages";
 
 export async function getFeatures() {
   const { items } = (await getTypedMessages()).home.sections.features;
-  const icons = [CheckIcon, CheckIcon, CheckIcon];
+  const icons = [CogIcon, AcademicCapIcon, CpuChipIcon];
 
   return items.map((feature, index) => ({
     name: feature.name,

@@ -3,7 +3,7 @@ import FactsSection from "@/components/home/FactsSection";
 import GridSection from "@/components/home/GridSection";
 import CarouselSection from "@/components/home/CarouselSection";
 import PricingSection from "@/components/home/PricingSection";
-import ProductsSection from "@/components/home/ProductsSection";
+import ProgramsSection from "@/components/home/ProgramsSection";
 import LogoClouds from "@/components/home/LogoClouds";
 import Testimonials from "@/components/home/Testimonials";
 import Contact from "@/components/home/Contact";
@@ -37,12 +37,12 @@ export default async function Home() {
     <main>
       <HeroSection />
       <FeatureSection />
+      <ProgramsSection />
       <FactsSection />
       <LogoClouds />
       <GridSection />
       <CarouselSection />
       <PricingSection />
-      <ProductsSection />
       <Testimonials />
       <Contact />
     </main>

@@ -4,12 +4,12 @@
       "home": "Inicio",
       "about": "Acerca de",
       "contact": "Contacto",
-      "products": "Productos"
+      "programs": "Programas"
     },
     "footer": {
       "links": "Enlaces",
       "about": "Acerca de",
-      "products": "Productos",
+      "programs": "Programas",
       "pricing": "Precios",
       "contact": "Contacto",
       "terms": "Términos",
@@ -26,27 +26,27 @@
     "title": "Inicio",
     "metadata": {
       "title": "Inicio",
-      "description": "Bienvenido a nuestra página de inicio. Aquí encontrarás información sobre nuestros productos y servicios."
+      "description": "Bienvenido a nuestra página de inicio. Aquí encontrarás información sobre nuestros programas y servicios."
     },
     "welcome": "Potencia Tu Cerebro con NeuraBoost",
     "introduction": "Desbloquea todo tu potencial cognitivo con nuestros programas de entrenamiento cerebral impulsados por IA. Diseñados por neurocientíficos. Respaldados por datos. Construidos para resultados.",
     "button": "Comenzar",
     "sections": {
       "features": {
-        "title": "Funciones Principales",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "title": "Potenciando Mentes Gracias a la Innovación",
+        "description": "En NeuraBoost, creemos que la mejora cognitiva debe ser accesible, basada en la ciencia e inspiradora.",
         "items": [
           {
-            "name": "Característica 1.",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+            "name": "Última investigación en neurociencia.",
+            "description": "Nuestras soluciones se basan en los últimos descubrimientos en neurociencia."
           },
           {
-            "name": "Característica 2.",
-            "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo."
+            "name": "Neurocientíficos e ingenieros de IA experimentados.",
+            "description": "Nuestro equipo combina experiencia en neurociencia e inteligencia artificial."
           },
           {
-            "name": "Característica 3.",
-            "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
+            "name": "Inteligencia artificial de vanguardia.",
+            "description": "Algoritmos avanzados de IA adaptados a tu progreso."
           }
         ]
       },
@@ -153,30 +153,25 @@
           }
         ]
       },
-      "products": {
-        "optional_text": "Productos",
-        "title": "Nuestros Productos",
+      "programs": {
+        "optional_text": "Programas",
+        "title": "Nuestros Programas",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
         "cards": [
           {
-            "name": "Producto 1",
-            "description": "Primer producto.",
-            "price": "$29"
+            "name": "NeuroPerformance",
+            "description": "Programa de entrenamiento cognitivo que combina movimiento físico con agilidad mental.",
+            "duration": "45 minutos"
           },
           {
-            "name": "Producto 2",
-            "description": "Está bien.",
-            "price": "$49"
+            "name": "MindBalance",
+            "description": "Un programa relajante para reducir el estrés y restaurar la claridad mental.",
+            "duration": "60 minutos"
           },
           {
-            "name": "Producto 3",
-            "description": "La bomba.",
-            "price": "$69"
-          },
-          {
-            "name": "Producto 4",
-            "description": "Lo máximo.",
-            "price": "$99"
+            "name": "Cognitive Core",
+            "description": "Diseñado para fortalecer la memoria, la concentración y las funciones ejecutivas.",
+            "duration": "30 minutos"
           }
         ]
       },
@@ -234,19 +229,19 @@
     "title": "Contacto",
     "metadata": {
       "title": "Contacto",
-      "description": "Contáctenos para más información sobre nuestros productos y servicios."
+      "description": "Contáctenos para más información sobre nuestros programas y servicios."
     }
   },
-  "products": {
-    "title": "Productos",
+  "programs": {
+    "title": "Programas",
     "metadata": {
-      "title": "Productos",
-      "description": "Descubre nuestros productos y servicios."
+      "title": "Programas",
+      "description": "Descubre nuestros programas y servicios."
     },
     "details": {
       "metadata": {
-        "title": "Detalles del producto",
-        "description": "Detalles del producto seleccionado."
+        "title": "Detalles del programa",
+        "description": "Detalles del programa seleccionado."
       }
     }
   }
