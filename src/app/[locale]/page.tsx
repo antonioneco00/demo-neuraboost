@@ -38,12 +38,12 @@ export default async function Home() {
       <HeroSection />
       <FeatureSection />
       <ProgramsSection />
+      <Testimonials />
       <FactsSection />
       <LogoClouds />
       <GridSection />
       <CarouselSection />
       <PricingSection />
-      <Testimonials />
       <Contact />
     </main>
   );

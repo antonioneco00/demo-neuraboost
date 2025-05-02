@@ -155,12 +155,12 @@
       },
       "programs": {
         "optional_text": "Programas",
-        "title": "Nuestros Programas",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "title": "Explora nuestros programas",
+        "description": "Descubre nuestros programas de mejora cognitiva diseñados científicamente, cada uno adaptado para satisfacer tus necesidades y objetivos específicos en el entrenamiento cerebral.",
         "cards": [
           {
             "name": "NeuroPerformance",
-            "description": "Programa de entrenamiento cognitivo que combina movimiento físico con agilidad mental.",
+            "description": "Programa de entrenamiento cognitivo de alta intensidad que combina movimiento físico con agilidad mental.",
             "duration": "45 minutos"
           },
           {
