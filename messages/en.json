@@ -129,7 +129,12 @@
     "metadata": {
       "title": "About Us",
       "description": "Learn more about our company and values"
-    }
+    },
+    "h1_title": "About Us",
+    "description": "At NeuraBoost, we are committed to enhancing cognitive performance through innovative technology and scientific research. Our mission is to empower individuals to unlock their full cognitive potential.",
+    "mission": "Our mission",
+    "mission_description": "Founded in 2022 by a group of neuroscientists and AI engineers, NeuraBoost was born out of a shared passion: helping people achieve mental clarity, focus, and resilience in an increasingly demanding world. We design personalized, data-driven brain training tools to improve memory, attention, and emotional well-being.",
+    "team": "Our team"
   },
   "programs": {
     "title": "Programs",
@@ -162,16 +167,16 @@
         "author": "Dr. Julia Hoffman"
       },
       {
-        "name": "MindBalance",
-        "description": "A relaxing program to reduce stress and restore mental clarity.",
-        "date": "60 minutes",
+        "name": "Digital Detox: Why Your Brain Needs Time Offline",
+        "description": "Learn the neurological benefits of disconnecting and how scheduled screen-free time can improve memory, mood, and cognitive clarity.",
+        "date": "Apr 22, 2025",
         "slug": "digital-detox-benefits",
         "author": "Oliver Grant"
       },
       {
-        "name": "Cognitive Core",
-        "description": "Designed to strengthen memory, focus, and executive functions.",
-        "date": "30 minutes",
+        "name": "Sleep and Brain Health: What Science Tells Us",
+        "description": "Explore the link between sleep quality and mental performance, and how better rest leads to sharper thinking and emotional regulation.",
+        "date": "Apr 4, 2025",
         "slug": "sleep-and-cognition",
         "author": "Dr. Laura Mendez"
       }

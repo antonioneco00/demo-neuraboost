@@ -78,12 +78,12 @@ export default async function Blog() {
                 className="drop-shadow-three"
               />
             </Link>
-            <div className="p-6">
+            <div className="h-full flex flex-col p-6 pt-4">
               <p className="mb-2 flex items-baseline gap-x-2 text-sm text-gray-500">
                 <span>{card.date}</span>
                 <a
                   href="#"
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  className="relative rounded-full bg-blue-50 dark:bg-blue-950 px-3 py-1.5 ml-auto font-medium text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-blue-900"
                 >
                   {card.slug}
                 </a>
@@ -95,7 +95,7 @@ export default async function Blog() {
                 {card.name}
               </Link>
               <p className="mt-2 text-base/7">{card.description}</p>
-              <p className="mb-2 flex items-baseline gap-x-2 text-sm text-gray-500">{card.author}</p>
+              <p className="mt-auto flex items-baseline gap-x-2 text-gray-500">{card.author}</p>
             </div>
           </div>
         ))}

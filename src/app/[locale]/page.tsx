@@ -36,7 +36,6 @@ export default async function Home() {
       <LogoClouds />
       <ProgramsSection />
       <Testimonials />
-      <Contact />
     </main>
   );
 }

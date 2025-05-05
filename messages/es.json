@@ -231,7 +231,12 @@
     "metadata": {
       "title": "Sobre Nosotros",
       "description": "Aprenda más acerca de nuestra compañía y lo que hacemos."
-    }
+    },
+    "h1_title": "Sobre Nosotros",
+    "description": "",
+    "mission": "Nuestra misión",
+    "mission_description": "",
+    "team": "Nuestro equipo"
   },
   "programs": {
     "title": "Programas",
@@ -252,31 +257,28 @@
       "title": "Blog",
       "description": "Lee nuestros últimos artículos y actualizaciones."
     },
-    "optional_text": "Programas",
-    "h1_title": "Explora nuestros programas",
-    "description": "Descubre nuestros programas de mejora cognitiva diseñados científicamente, cada uno adaptado para satisfacer tus necesidades y objetivos específicos en el entrenamiento cerebral.",
+    "optional_text": "Blog",
+    "h1_title": "Últimos Artículos",
+    "description": "Mantente actualizado con nuestros últimos artículos y perspectivas sobre mejora cognitiva, neurociencia y entrenamiento cerebral.",
     "cards": [
       {
-        "name": "NeuroPerformance",
-        "description": "Programa de entrenamiento cognitivo de alta intensidad que combina movimiento físico con agilidad mental.",
-        "full_description": "Un programa de entrenamiento cognitivo de alta intensidad que combina movimiento físico con agilidad mental. Ideal para profesionales y atletas que buscan un rendimiento máximo bajo presión. Incluye sesiones de neurofeedback, ejercicios basados en reflejos y entrenamiento de doble tarea.",
-        "date": "45 minutos",
+        "name": "Cómo el Entrenamiento Cognitivo Mejora el Rendimiento Laboral",
+        "description": "Descubre cómo los ejercicios cerebrales específicos pueden mejorar la concentración, la toma de decisiones y la productividad entre los profesionales.",
+        "date": "10 de Mayo, 2025",
         "slug": "cognitive-training-workplace",
         "author": "Dr. Julia Hoffman"
       },
       {
-        "name": "MindBalance",
-        "description": "Un programa relajante para reducir el estrés y restaurar la claridad mental.",
-        "full_description": "Un programa relajante que combina movimientos suaves, ejercicios de respiración y neurovisualización guiada para reducir el estrés y restaurar la claridad mental. Perfecto para clientes que sufren de agotamiento, ansiedad o simplemente necesitan un reinicio mental.",
-        "date": "60 minutos",
+        "name": "Desintoxicación Digital: Por Qué Tu Cerebro Necesita Tiempo Desconectado",
+        "description": "Conoce los beneficios neurológicos de desconectarse y cómo el tiempo programado sin pantallas puede mejorar la memoria, el estado de ánimo y la claridad cognitiva.",
+        "date": "22 de Abril, 2025",
         "slug": "digital-detox-benefits",
         "author": "Oliver Grant"
       },
       {
-        "name": "Cognitive Core",
-        "description": "Diseñado para fortalecer la memoria, la concentración y las funciones ejecutivas.",
-        "full_description": "Diseñado para fortalecer la memoria, la concentración y las funciones ejecutivas a través de neuro-juegos personalizados y desafíos sensoriales. Especialmente efectivo para estudiantes, personas mayores o cualquiera que busque agudizar su capacidad mental.",
-        "date": "30 minutos",
+        "name": "Sueño y Salud Cerebral: Lo Que Nos Dice la Ciencia",
+        "description": "Explora la conexión entre la calidad del sueño y el rendimiento mental, y cómo un mejor descanso conduce a un pensamiento más agudo y una mejor regulación emocional.",
+        "date": "4 de Abril, 2025",
         "slug": "sleep-and-cognition",
         "author": "Dr. Laura Mendez"
       }
