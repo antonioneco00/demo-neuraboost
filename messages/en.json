@@ -3,8 +3,9 @@
     "header": {
       "home": "Home",
       "about": "About",
-      "contact": "Contact",
-      "programs": "Programs"
+      "programs": "Programs",
+      "blog": "Blog",
+      "contact": "Contact"
     },
     "footer": {
       "links": "Links",
@@ -50,104 +51,7 @@
           }
         ]
       },
-      "facts": {
-        "items": [
-          {
-            "fact": "Fact 1",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          },
-          {
-            "fact": "Fact 2",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-          },
-          {
-            "fact": "Fact 3",
-            "desc": "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt consectetur adipiscing elit setim."
-          }
-        ]
-      },
       "logo_clouds": "Our Clients",
-      "grid": {
-        "optional_text": "Optional Text",
-        "title": "Grid Features",
-        "description": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.",
-        "items": [
-          {
-            "name": "Item 1",
-            "description": "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa."
-          },
-          {
-            "name": "Item 2",
-            "description": "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet."
-          },
-          {
-            "name": "Item 3",
-            "description": "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque."
-          },
-          {
-            "name": "Item 4",
-            "description": "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget."
-          },
-          {
-            "name": "Item 5",
-            "description": "Donec nec dolor fringilla, sagittis tortor ac, sollicitudin justo. Cras vel efficitur arcu. Sed luctus lacus mi, et vulputate purus aliquam at."
-          },
-          {
-            "name": "Item 6",
-            "description": "Aenean pharetra tellus id suscipit posuere. Aenean elit odio, fringilla in elit vitae, tincidunt consectetur lorem."
-          }
-        ]
-      },
-      "carousel": {
-        "title": "Carousel Section",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        "items": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
-        ]
-      },
-      "pricing": {
-        "optional_text": "Pricing",
-        "title": "Choose the right plan for you",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        "tiers": [
-          {
-            "name": "Plan 1",
-            "description": "Morbi viverra dui mi arcu sed.",
-            "price": "$29",
-            "features": ["Feature 1", "Feature 2", "Feature 3", "Feature 4"]
-          },
-          {
-            "name": "Plan 2",
-            "description": "Nullam auctor, nunc nec.",
-            "price": "$69",
-            "features": [
-              "Feature 1",
-              "Feature 2",
-              "Feature 3",
-              "Feature 4",
-              "Feature 5"
-            ]
-          },
-          {
-            "name": "Plan 3",
-            "description": "Quisque est vel vulputate cursus.",
-            "price": "$99",
-            "features": [
-              "Feature 1",
-              "Feature 2",
-              "Feature 3",
-              "Feature 4",
-              "Feature 5",
-              "Feature 6"
-            ]
-          }
-        ]
-      },
       "programs": {
         "optional_text": "Programs",
         "title": "Explore Our Programs",
@@ -227,13 +131,6 @@
       "description": "Learn more about our company and values"
     }
   },
-  "contact": {
-    "title": "Contact",
-    "metadata": {
-      "title": "Contact",
-      "description": "Get in touch with us"
-    }
-  },
   "programs": {
     "title": "Programs",
     "metadata": {
@@ -245,6 +142,46 @@
         "title": "Program Details",
         "description": "Selected product details"
       }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "metadata": {
+      "title": "Blog",
+      "description": "Read our latest articles and updates"
+    },
+    "optional_text": "Programs",
+    "h1_title": "Explore Our Programs",
+    "description": "Discover our scientifically-designed cognitive enhancement programs, each tailored to meet your specific needs and goals in brain training.",
+    "cards": [
+      {
+        "name": "NeuroPerformance",
+        "description": "A high-intensity cognitive training program that blends physical movement with mental agility.",
+        "full_description": "A high-intensity cognitive training program that blends physical movement with mental agility. Ideal for professionals and athletes seeking peak performance under pressure. Includes neurofeedback sessions, reaction-based drills, and dual-task training.",
+        "duration": "45 minutes",
+        "price": "45€"
+      },
+      {
+        "name": "MindBalance",
+        "description": "A relaxing program to reduce stress and restore mental clarity.",
+        "full_description": "A relaxing program combining light movement, breathwork, and guided neurovisualization to reduce stress and restore mental clarity. Perfect for clients dealing with burnout, anxiety, or simply in need of a mental reset.",
+        "duration": "60 minutes",
+        "price": "40€"
+      },
+      {
+        "name": "Cognitive Core",
+        "description": "Designed to strengthen memory, focus, and executive functions.",
+        "full_description": "Designed to strengthen memory, focus, and executive functions through personalized neuro-games and sensory challenges. Especially effective for students, seniors, or anyone looking to sharpen their mental edge.",
+        "duration": "30 minutes",
+        "price": "30€"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "metadata": {
+      "title": "Contact",
+      "description": "Get in touch with us"
     }
   }
 }

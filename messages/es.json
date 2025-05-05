@@ -3,8 +3,9 @@
     "header": {
       "home": "Inicio",
       "about": "Acerca de",
-      "contact": "Contacto",
-      "programs": "Programas"
+      "programs": "Programas",
+      "blog": "Blog",
+      "contact": "Contacto"
     },
     "footer": {
       "links": "Enlaces",
@@ -232,13 +233,6 @@
       "description": "Aprenda más acerca de nuestra compañía y lo que hacemos."
     }
   },
-  "contact": {
-    "title": "Contacto",
-    "metadata": {
-      "title": "Contacto",
-      "description": "Contáctenos para más información sobre nuestros programas y servicios."
-    }
-  },
   "programs": {
     "title": "Programas",
     "metadata": {
@@ -250,6 +244,46 @@
         "title": "Detalles del programa",
         "description": "Detalles del programa seleccionado."
       }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "metadata": {
+      "title": "Blog",
+      "description": "Lee nuestros últimos artículos y actualizaciones."
+    },
+    "optional_text": "Programas",
+    "h1_title": "Explora nuestros programas",
+    "description": "Descubre nuestros programas de mejora cognitiva diseñados científicamente, cada uno adaptado para satisfacer tus necesidades y objetivos específicos en el entrenamiento cerebral.",
+    "cards": [
+      {
+        "name": "NeuroPerformance",
+        "description": "Programa de entrenamiento cognitivo de alta intensidad que combina movimiento físico con agilidad mental.",
+        "full_description": "Un programa de entrenamiento cognitivo de alta intensidad que combina movimiento físico con agilidad mental. Ideal para profesionales y atletas que buscan un rendimiento máximo bajo presión. Incluye sesiones de neurofeedback, ejercicios basados en reflejos y entrenamiento de doble tarea.",
+        "duration": "45 minutos",
+        "price": "45€"
+      },
+      {
+        "name": "MindBalance",
+        "description": "Un programa relajante para reducir el estrés y restaurar la claridad mental.",
+        "full_description": "Un programa relajante que combina movimientos suaves, ejercicios de respiración y neurovisualización guiada para reducir el estrés y restaurar la claridad mental. Perfecto para clientes que sufren de agotamiento, ansiedad o simplemente necesitan un reinicio mental.",
+        "duration": "60 minutos",
+        "price": "40€"
+      },
+      {
+        "name": "Cognitive Core",
+        "description": "Diseñado para fortalecer la memoria, la concentración y las funciones ejecutivas.",
+        "full_description": "Diseñado para fortalecer la memoria, la concentración y las funciones ejecutivas a través de neuro-juegos personalizados y desafíos sensoriales. Especialmente efectivo para estudiantes, personas mayores o cualquiera que busque agudizar su capacidad mental.",
+        "duration": "30 minutos",
+        "price": "30€"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "metadata": {
+      "title": "Contacto",
+      "description": "Contáctenos para más información sobre nuestros programas y servicios."
     }
   }
 }

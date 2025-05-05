@@ -3,7 +3,7 @@ import { getTypedMessages } from "@/lib/messages";
 import { PopoverGroup } from "@headlessui/react";
 
 export default async function DesktopNavigation() {
-  const { home, about, contact, programs } = (await getTypedMessages())
+  const { home, about, contact, programs, blog } = (await getTypedMessages())
     .components.header;
 
   return (
@@ -21,23 +21,22 @@ export default async function DesktopNavigation() {
         {about}
       </Link>
       <Link
-        href="/contact"
-        className="text-md hover:text-blue-400 font-semibold transition-colors duration-500"
-      >
-        {contact}
-      </Link>
-      {/* Cambiar por enlace a si no se necesita otra página */}
-      {/* <a
-        href="#contact"
-        className="text-md hover:text-blue-400 font-semibold transition-colors duration-500"
-        >
-        {contact}
-        </a> */}
-      <Link
         href="/programs"
         className="text-md hover:text-blue-400 font-semibold transition-colors duration-500"
       >
         {programs}
+      </Link>
+      <Link
+        href="/blog"
+        className="text-md hover:text-blue-400 font-semibold transition-colors duration-500"
+      >
+        {blog}
+      </Link>
+      <Link
+        href="/contact"
+        className="text-md hover:text-blue-400 font-semibold transition-colors duration-500"
+      >
+        {contact}
       </Link>
     </PopoverGroup>
   );
