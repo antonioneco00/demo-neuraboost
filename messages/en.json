@@ -150,30 +150,30 @@
       "title": "Blog",
       "description": "Read our latest articles and updates"
     },
-    "optional_text": "Programs",
-    "h1_title": "Explore Our Programs",
-    "description": "Discover our scientifically-designed cognitive enhancement programs, each tailored to meet your specific needs and goals in brain training.",
+    "optional_text": "Blog",
+    "h1_title": "Latest Articles",
+    "description": "Stay updated with our latest articles and insights on cognitive enhancement, neuroscience, and brain training.",
     "cards": [
       {
-        "name": "NeuroPerformance",
-        "description": "A high-intensity cognitive training program that blends physical movement with mental agility.",
-        "full_description": "A high-intensity cognitive training program that blends physical movement with mental agility. Ideal for professionals and athletes seeking peak performance under pressure. Includes neurofeedback sessions, reaction-based drills, and dual-task training.",
-        "duration": "45 minutes",
-        "price": "45€"
+        "name": "How Cognitive Training Boosts Workplace Performance",
+        "description": "Discover how targeted brain exercises can enhance focus, decision-making, and productivity among professionals.",
+        "date": "May 10, 2025",
+        "slug": "cognitive-training-workplace",
+        "author": "Dr. Julia Hoffman"
       },
       {
         "name": "MindBalance",
         "description": "A relaxing program to reduce stress and restore mental clarity.",
-        "full_description": "A relaxing program combining light movement, breathwork, and guided neurovisualization to reduce stress and restore mental clarity. Perfect for clients dealing with burnout, anxiety, or simply in need of a mental reset.",
-        "duration": "60 minutes",
-        "price": "40€"
+        "date": "60 minutes",
+        "slug": "digital-detox-benefits",
+        "author": "Oliver Grant"
       },
       {
         "name": "Cognitive Core",
         "description": "Designed to strengthen memory, focus, and executive functions.",
-        "full_description": "Designed to strengthen memory, focus, and executive functions through personalized neuro-games and sensory challenges. Especially effective for students, seniors, or anyone looking to sharpen their mental edge.",
-        "duration": "30 minutes",
-        "price": "30€"
+        "date": "30 minutes",
+        "slug": "sleep-and-cognition",
+        "author": "Dr. Laura Mendez"
       }
     ]
   },

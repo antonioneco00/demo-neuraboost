@@ -1,0 +1,15 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="80" width="80" height="80" fill="#2B7FFF" fill-opacity="0.6"/>
+<path d="M200 40C200 62.0914 200 80 200 80C177.909 80 160 62.0914 160 40C160 17.9086 177.909 0 200 0C200 0 200 17.9086 200 40Z" fill="#2B7FFF" fill-opacity="0.4"/>
+<path d="M200 40C200 62.0914 200 80 200 80C222.091 80 240 62.0914 240 40C240 17.9086 222.091 0 200 0C200 0 200 17.9086 200 40Z" fill="#2B7FFF" fill-opacity="0.6"/>
+<path d="M280 200C302.091 200 320 200 320 200C320 222.091 302.091 240 280 240C257.909 240 240 222.091 240 200C240 200 257.909 200 280 200Z" fill="#2B7FFF" fill-opacity="0.4"/>
+<path d="M280 200C302.091 200 320 200 320 200C320 177.909 302.091 160 280 160C257.909 160 240 177.909 240 200C240 200 257.909 200 280 200Z" fill="#2B7FFF" fill-opacity="0.6"/>
+<path d="M160 80H80L160 160V80Z" fill="#2B7FFF" fill-opacity="0.4"/>
+<path d="M240 160H160L240 240V160Z" fill="#2B7FFF" fill-opacity="0.6"/>
+<path d="M320 80H240L320 160V80Z" fill="#2B7FFF" fill-opacity="0.6"/>
+<path d="M240 160H320L240 80V160Z" fill="#2B7FFF" fill-opacity="0.4"/>
+<path d="M320 240H240L320 320V240Z" fill="#2B7FFF" fill-opacity="0.4"/>
+<path d="M80 0H0L80 80V0Z" fill="#2B7FFF" fill-opacity="0.4"/>
+<path d="M240 80C240 124.183 204.183 160 160 160C160 160 160 124.183 160 80C204.183 80 240 80 240 80Z" fill="#2B7FFF" fill-opacity="0.6"/>
+<path d="M320 0C275.817 0 240 0 240 0C240 44.1828 275.817 80 320 80C320 80 320 44.1828 320 0Z" fill="#2B7FFF" fill-opacity="0.6"/>
+</svg>

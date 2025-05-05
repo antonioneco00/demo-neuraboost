@@ -7,7 +7,7 @@ export default async function PagesLayout({
 }) {
   return (
     <>
-      <div className="w-full bg-blue-100 dark:bg-blue-900 py-18">
+      <div className="w-full bg-linear-120 from-background to-blue-50 dark:to-blue-950 py-18">
         <Breadcrumb />
       </div>
       {children}

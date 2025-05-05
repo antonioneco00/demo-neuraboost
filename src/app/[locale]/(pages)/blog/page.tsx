@@ -25,32 +25,32 @@ export async function generateMetadata({
 }
 
 export default async function Blog() {
-  const { optional_text, title, description, cards } = (
+  const { optional_text, h1_title, description, cards } = (
     await getTypedMessages()
   ).blog;
 
   return (
     <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8" id="blog">
       <Image
-        src="/abstract-svg/blog-wave-top.svg"
+        src="/abstract-svg/blog-corner-left.svg"
         alt="abstract corner image"
         width={0}
         height={0}
         className="absolute size-auto top-0 left-0 -z-10"
       />
       <Image
-        src="/abstract-svg/blog-wave-bottom.svg"
+        src="/abstract-svg/blog-corner.svg"
         alt="abstract corner image"
         width={0}
         height={0}
-        className="absolute size-auto bottom-0 right-0 -z-10"
+        className="absolute size-auto top-0 right-0 -z-10"
       />
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-base/7 font-semibold text-blue-500">
           {optional_text}
         </h2>
         <p className="mt-2 text-5xl font-semibold tracking-tight text-balance sm:text-6xl">
-          {title}
+          {h1_title}
         </p>
       </div>
       <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
@@ -63,7 +63,7 @@ export default async function Blog() {
             className="relative bg-background h-full flex max-w-[500] flex-col shadow-2xl ring-1 ring-gray-900/10 dark:ring-blue-400/40 overflow-hidden"
           >
             <Image
-              src="/abstract-svg/program-card.svg"
+              src="/abstract-svg/blog-card.svg"
               alt="abstract corner image"
               width={0}
               height={0}
@@ -71,7 +71,7 @@ export default async function Blog() {
             />
             <Link href={`/blog/${key + 1}`}>
               <Image
-                src={`/program-${key + 1}.png`}
+                src={`/blog-${key + 1}.png`}
                 alt="about image"
                 width={500}
                 height={500}
@@ -79,6 +79,15 @@ export default async function Blog() {
               />
             </Link>
             <div className="p-6">
+              <p className="mb-2 flex items-baseline gap-x-2 text-sm text-gray-500">
+                <span>{card.date}</span>
+                <a
+                  href="#"
+                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                >
+                  {card.slug}
+                </a>
+              </p>
               <Link
                 href={`/blog/${key + 1}`}
                 className="text-blue-400 text-xl font-semibold"
@@ -86,9 +95,7 @@ export default async function Blog() {
                 {card.name}
               </Link>
               <p className="mt-2 text-base/7">{card.description}</p>
-              <p className="mt-2 flex items-baseline gap-x-2 text-lg font-semibold">
-                {card.duration}
-              </p>
+              <p className="mb-2 flex items-baseline gap-x-2 text-sm text-gray-500">{card.author}</p>
             </div>
           </div>
         ))}

@@ -260,22 +260,25 @@
         "name": "NeuroPerformance",
         "description": "Programa de entrenamiento cognitivo de alta intensidad que combina movimiento físico con agilidad mental.",
         "full_description": "Un programa de entrenamiento cognitivo de alta intensidad que combina movimiento físico con agilidad mental. Ideal para profesionales y atletas que buscan un rendimiento máximo bajo presión. Incluye sesiones de neurofeedback, ejercicios basados en reflejos y entrenamiento de doble tarea.",
-        "duration": "45 minutos",
-        "price": "45€"
+        "date": "45 minutos",
+        "slug": "cognitive-training-workplace",
+        "author": "Dr. Julia Hoffman"
       },
       {
         "name": "MindBalance",
         "description": "Un programa relajante para reducir el estrés y restaurar la claridad mental.",
         "full_description": "Un programa relajante que combina movimientos suaves, ejercicios de respiración y neurovisualización guiada para reducir el estrés y restaurar la claridad mental. Perfecto para clientes que sufren de agotamiento, ansiedad o simplemente necesitan un reinicio mental.",
-        "duration": "60 minutos",
-        "price": "40€"
+        "date": "60 minutos",
+        "slug": "digital-detox-benefits",
+        "author": "Oliver Grant"
       },
       {
         "name": "Cognitive Core",
         "description": "Diseñado para fortalecer la memoria, la concentración y las funciones ejecutivas.",
         "full_description": "Diseñado para fortalecer la memoria, la concentración y las funciones ejecutivas a través de neuro-juegos personalizados y desafíos sensoriales. Especialmente efectivo para estudiantes, personas mayores o cualquiera que busque agudizar su capacidad mental.",
-        "duration": "30 minutos",
-        "price": "30€"
+        "date": "30 minutos",
+        "slug": "sleep-and-cognition",
+        "author": "Dr. Laura Mendez"
       }
     ]
   },
