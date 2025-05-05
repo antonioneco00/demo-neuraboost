@@ -1,8 +1,4 @@
 import FeatureSection from "@/components/home/FeatureSection";
-import FactsSection from "@/components/home/FactsSection";
-import GridSection from "@/components/home/GridSection";
-import CarouselSection from "@/components/home/CarouselSection";
-import PricingSection from "@/components/home/PricingSection";
 import ProgramsSection from "@/components/home/ProgramsSection";
 import LogoClouds from "@/components/home/LogoClouds";
 import Testimonials from "@/components/home/Testimonials";
@@ -37,13 +33,9 @@ export default async function Home() {
     <main>
       <HeroSection />
       <FeatureSection />
+      <LogoClouds />
       <ProgramsSection />
       <Testimonials />
-      <FactsSection />
-      <LogoClouds />
-      <GridSection />
-      <CarouselSection />
-      <PricingSection />
       <Contact />
     </main>
   );

@@ -47,13 +47,15 @@ export default async function ProgramsSection() {
               height={0}
               className="absolute size-auto bottom-0 right-0"
             />
-            <Image
-              src={`/program-${key + 1}.png`}
-              alt="about image"
-              width={500}
-              height={500}
-              className="drop-shadow-three"
-            />
+            <Link href={`/programs/${key + 1}`}>
+              <Image
+                src={`/program-${key + 1}.png`}
+                alt="about image"
+                width={500}
+                height={500}
+                className="drop-shadow-three"
+              />
+            </Link>
             <div className="p-6">
               <Link
                 href={`/programs/${key + 1}`}

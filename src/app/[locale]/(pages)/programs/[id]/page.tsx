@@ -33,7 +33,7 @@ export default async function ProgramDetails({
   const product = (await getTypedMessages()).home.sections.programs.cards[
     id - 1
   ];
-  const { name, description, price } = product;
+  const { name, full_description, duration, price } = product;
 
   return (
     <div className="overflow-hidden bg-background py-24 sm:py-32">
@@ -46,7 +46,10 @@ export default async function ProgramDetails({
               </h2>
               <p className="mt-6 text-lg/8 text-gray-500">
                 {locale === "en" ? "Description: " : "Descripción: "}
-                {description}
+                {full_description}
+              </p>
+              <p className="mt-6 text-lg/8 text-gray-500">
+                {locale === "en" ? "Duration: " : "Duración: "} {duration}
               </p>
               <p className="mt-6 text-lg/8 text-gray-500">
                 {locale === "en" ? "Price: " : "Precio: "} {price}
@@ -54,10 +57,10 @@ export default async function ProgramDetails({
             </div>
           </div>
           <Image
-            src="/about-image.svg"
+            src={`/program-${id}.png`}
             alt="about image"
-            width={0}
-            height={0}
+            width={500}
+            height={500}
             className="h-auto w-auto object-contain"
           />
         </div>

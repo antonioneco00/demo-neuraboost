@@ -156,36 +156,43 @@
           {
             "name": "NeuroPerformance",
             "description": "A high-intensity cognitive training program that blends physical movement with mental agility.",
-            "duration": "45 minutes"
+            "full_description": "A high-intensity cognitive training program that blends physical movement with mental agility. Ideal for professionals and athletes seeking peak performance under pressure. Includes neurofeedback sessions, reaction-based drills, and dual-task training.",
+            "duration": "45 minutes",
+            "price": "45€"
           },
           {
             "name": "MindBalance",
             "description": "A relaxing program to reduce stress and restore mental clarity.",
-            "duration": "60 minutes"
+            "full_description": "A relaxing program combining light movement, breathwork, and guided neurovisualization to reduce stress and restore mental clarity. Perfect for clients dealing with burnout, anxiety, or simply in need of a mental reset.",
+            "duration": "60 minutes",
+            "price": "40€"
           },
           {
             "name": "Cognitive Core",
             "description": "Designed to strengthen memory, focus, and executive functions.",
-            "duration": "30 minutes"
+            "full_description": "Designed to strengthen memory, focus, and executive functions through personalized neuro-games and sensory challenges. Especially effective for students, seniors, or anyone looking to sharpen their mental edge.",
+            "duration": "30 minutes",
+            "price": "30€"
           }
         ]
       },
       "testimonials": {
         "title": "Testimonials",
+        "description": "What our clients say",
         "clients": [
           {
-            "name": "Client 1",
-            "description": "CEO of My Company",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra tellus id suscipit posuere."
+            "name": "Emily Watson",
+            "description": "University Student",
+            "quote": "NeuraBoost has helped me improve my focus and memory retention significantly. I was struggling with long study sessions before, but now I feel more in control and mentally sharp."
           },
           {
-            "name": "Client 2",
-            "description": "CEO of Another Company",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+            "name": "Carlos Méndez",
+            "description": "Personal Trainer",
+            "quote": "The NeuroPerformance program pushed me beyond my limits—not just physically, but mentally. It’s not just a workout; it’s a total upgrade for the brain."
           },
           {
-            "name": "Client 3",
-            "description": "CEO of Last Company",
+            "name": "Julia Hoffman",
+            "description": "Marketing Manager",
             "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. Quis tellus eget adipiscing convallis sit sit eget aliquet quis."
           }
         ]

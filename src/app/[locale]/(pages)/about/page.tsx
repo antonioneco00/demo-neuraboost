@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import GridSection from "@/components/home/GridSection";
+import FeatureSection from "@/components/home/FeatureSection";
 import { getTypedMessages } from "@/lib/messages";
 
 export async function generateMetadata({
@@ -24,5 +24,5 @@ export async function generateMetadata({
 }
 
 export default async function About() {
-  return <GridSection />;
+  return <FeatureSection />;
 }
