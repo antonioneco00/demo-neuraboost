@@ -149,7 +149,10 @@
       "metadata": {
         "title": "Program Details",
         "description": "Selected product details"
-      }
+      },
+      "description": "Description",
+      "duration": "Duration",
+      "price": "Price"
     }
   },
   "blog": {

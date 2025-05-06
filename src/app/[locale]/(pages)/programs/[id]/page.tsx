@@ -30,39 +30,51 @@ export default async function ProgramDetails({
   params: Promise<{ locale: string; id: number }>;
 }) {
   const { locale, id } = await params;
+  const {
+    description,
+    duration: duration_title,
+    price: price_title,
+  } = (await getTypedMessages()).programs.details;
   const product = (await getTypedMessages()).home.sections.programs.cards[
     id - 1
   ];
   const { name, full_description, duration, price } = product;
 
   return (
-    <div className="overflow-hidden bg-background py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="relative overflow-hidden py-8 md:py-12 sm:py-24">
+      <div className="absolute top-0 -z-10 size-full bg-[url(/polka-dot.svg)]" />
+      <div className="relative mx-auto max-w-7xl p-6 lg:p-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8">
             <div className="lg:max-w-lg">
-              <h2 className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
+              <h2 className="mt-2 mb-6 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
                 {name}
               </h2>
-              <p className="mt-6 text-lg/8 text-gray-500">
-                {locale === "en" ? "Description: " : "Descripción: "}
-                {full_description}
-              </p>
-              <p className="mt-6 text-lg/8 text-gray-500">
-                {locale === "en" ? "Duration: " : "Duración: "} {duration}
-              </p>
-              <p className="mt-6 text-lg/8 text-gray-500">
-                {locale === "en" ? "Price: " : "Precio: "} {price}
-              </p>
+              <h3 className="text-2xl font-semibold mb-3">{description}</h3>
+              <p className="text-lg text-gray-500 mb-4">{full_description}</p>
+              <h3 className="text-2xl font-semibold mb-3">{duration_title}</h3>
+              <p className="text-lg text-gray-500 mb-4">{duration}</p>
+              <h3 className="text-2xl font-semibold mb-3">{price_title}</h3>
+              <p className="text-lg text-gray-500 mb-4">{price}</p>
             </div>
           </div>
-          <Image
-            src={`/program-${id}.png`}
-            alt="about image"
-            width={500}
-            height={500}
-            className="h-auto w-auto object-contain"
-          />
+          <div className="relative h-fit my-auto">
+            <Image
+              src="/abstract-svg/circles.svg"
+              alt="abstract corner image"
+              width={0}
+              height={0}
+              className="absolute size-auto -top-8 -right-8 -z-5"
+            />
+            <Image
+              src={`/program-${id}.png`}
+              alt="about image"
+              width={500}
+              height={500}
+              priority
+              className="size-full object-contain shadow-2xl rounded-lg"
+            />
+          </div>
         </div>
       </div>
     </div>

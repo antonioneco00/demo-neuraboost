@@ -251,7 +251,10 @@
       "metadata": {
         "title": "Detalles del programa",
         "description": "Detalles del programa seleccionado."
-      }
+      },
+      "description": "Descripción",
+      "duration": "Duración",
+      "price": "Precio"
     }
   },
   "blog": {
