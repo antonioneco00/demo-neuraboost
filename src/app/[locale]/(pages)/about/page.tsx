@@ -26,7 +26,7 @@ export async function generateMetadata({
 }
 
 export default async function About() {
-  const { h1_title, description, mission, mission_description, team } = (
+  const { h1_title, description, mission, mission_description } = (
     await getTypedMessages()
   ).about;
 

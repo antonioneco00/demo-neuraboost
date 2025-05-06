@@ -1,6 +1,7 @@
 "use client";
 
 import { PlayIcon } from "@heroicons/react/24/solid";
+import Image from "next/image";
 import { useRef, useState } from "react";
 
 export default function HeroVideo() {
@@ -15,9 +16,12 @@ export default function HeroVideo() {
     <div className="relative w-full max-w-5xl mx-auto aspect-video rounded-2xl overflow-hidden shadow-lg">
       {!showVideo && (
         <>
-          <img
+          <Image
             src="/hero-image.png"
             alt="Portada del video"
+            width={1024}
+            height={1024}
+            priority
             className="w-full h-full object-cover"
           />
           <button

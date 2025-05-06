@@ -12,43 +12,43 @@ export default async function LogoClouds() {
           <Image
             alt="Sponsor"
             src="/sponsor-1.svg"
-            width={158}
-            height={48}
+            width={0}
+            height={0}
             className="h-12 w-auto mx-auto object-contain lg:col-span-1 block dark:hidden"
           />
           <Image
             alt="Sponsor"
             src="/sponsor-1-white.svg"
-            width={158}
-            height={48}
+            width={0}
+            height={0}
             className="h-12 w-auto mx-auto object-contain lg:col-span-1 hidden dark:block"
           />
           <Image
             alt="Sponsor"
             src="/sponsor-2.svg"
-            width={158}
-            height={48}
+            width={0}
+            height={0}
             className="h-12 w-auto mx-auto object-contain lg:col-span-1 block dark:hidden"
           />
           <Image
             alt="Sponsor"
             src="/sponsor-2-white.svg"
-            width={158}
-            height={48}
+            width={0}
+            height={0}
             className="h-12 w-auto mx-auto object-contain lg:col-span-1 hidden dark:block"
           />
           <Image
             alt="Sponsor"
             src="/sponsor-3.svg"
-            width={158}
-            height={48}
+            width={0}
+            height={0}
             className="h-12 w-auto mx-auto object-contain sm:col-span-2 lg:col-span-1 block dark:hidden"
           />
           <Image
             alt="Sponsor"
             src="/sponsor-3-white.svg"
-            width={158}
-            height={48}
+            width={0}
+            height={0}
             className="h-12 w-auto mx-auto object-contain sm:col-span-2 lg:col-span-1 hidden dark:block"
           />
         </div>

@@ -1,4 +1,3 @@
-import { Link } from "@/i18n/navigation";
 import { getTypedMessages } from "@/lib/messages";
 import { Metadata } from "next";
 import Image from "next/image";
