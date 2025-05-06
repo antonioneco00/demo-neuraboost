@@ -31,7 +31,7 @@ export default async function Footer() {
                   height={32}
                   className="size-9"
                 />
-                <h1 className="font-mono text-xl font-semibold ml-2">
+                <h1 className="text-xl font-semibold ml-2">
                   NeuraBoost
                 </h1>
               </Link>

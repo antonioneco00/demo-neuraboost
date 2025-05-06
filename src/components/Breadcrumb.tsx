@@ -48,7 +48,7 @@ export default function Breadcrumb() {
 
   return (
     <div className="text-center">
-      <h1 className="text-4xl font-semibold font-mono tracking-tight text-balance">
+      <h1 className="text-4xl font-semibold tracking-tight text-balance">
         {messages[firstSegment].title}
       </h1>
       <div className="inline-flex mt-8 text-lg font-medium font-sans text-pretty text-gray-500">
