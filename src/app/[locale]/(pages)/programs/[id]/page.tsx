@@ -27,9 +27,9 @@ export async function generateMetadata({
 export default async function ProgramDetails({
   params,
 }: {
-  params: Promise<{ locale: string; id: number }>;
+  params: Promise<{ id: number }>;
 }) {
-  const { locale, id } = await params;
+  const { id } = await params;
   const {
     description,
     duration: duration_title,
