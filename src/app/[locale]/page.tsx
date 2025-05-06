@@ -2,7 +2,6 @@ import FeatureSection from "@/components/home/FeatureSection";
 import ProgramsSection from "@/components/home/ProgramsSection";
 import LogoClouds from "@/components/home/LogoClouds";
 import Testimonials from "@/components/home/Testimonials";
-import Contact from "@/components/home/Contact";
 import { getTypedMessages } from "@/lib/messages";
 import { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
