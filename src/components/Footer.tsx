@@ -22,7 +22,7 @@ export default async function Footer() {
             <div className="mb-6">
               <Link
                 href="/"
-                className="flex items-center hover:text-blue-400 mb-6 transition-colors duration-500"
+                className="flex w-fit items-center hover:text-blue-400 mb-6 transition-colors duration-500"
               >
                 <Image
                   alt=""

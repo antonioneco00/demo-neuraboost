@@ -20,7 +20,7 @@
       "country": "Spain",
       "phone": "555-555-5555",
       "email": "info@yourcompany.com",
-      "copyright": "© 2025 Your Company, Inc. All rights reserved."
+      "copyright": "© 2025 NeuraBoost - All rights reserved."
     }
   },
   "home": {
@@ -209,6 +209,14 @@
         "invalid_email": "Email is invalid",
         "try_again": "Something went wrong. Please try again."
       }
+    },
+    "info": {
+      "title": "Find Us",
+      "address": "Address",
+      "street": "123 Calle del Pensamiento",
+      "city": "28014 Madrid",
+      "country": "Spain",
+      "phone": "Phone"
     }
   }
 }

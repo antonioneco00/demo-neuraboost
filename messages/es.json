@@ -20,7 +20,7 @@
       "country": "España",
       "phone": "666 66 66 66",
       "email": "info@tuempresa.es",
-      "copyright": "© 2025 Tu Compañía S.A. Todos los derechos reservados."
+      "copyright": "© 2025 NeuraBoost - Todos los derechos reservados."
     }
   },
   "home": {
@@ -311,6 +311,14 @@
         "invalid_email": "Email inválido",
         "try_again": "Error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
       }
+    },
+    "info": {
+      "title": "Encuéntranos",
+      "address": "Dirección",
+      "street": "Calle del Pensamiento, 123",
+      "city": "28014 Madrid",
+      "country": "España",
+      "phone": "Teléfono"
     }
   }
 }
