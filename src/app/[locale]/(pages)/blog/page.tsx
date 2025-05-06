@@ -30,7 +30,7 @@ export default async function Blog() {
   ).blog;
 
   return (
-    <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8" id="blog">
+    <div className="relative bg-linear-0 from-background to-blue-50 dark:to-gray-950 isolate px-6 py-24 sm:py-32 lg:px-8" id="blog">
       <Image
         src="/abstract-svg/blog-corner-left.svg"
         alt="abstract corner image"

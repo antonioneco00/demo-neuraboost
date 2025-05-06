@@ -17,7 +17,14 @@ export default async function FeatureSection() {
         height={0}
         className="absolute size-auto bottom-0 right-0"
       />
-      <div className="mx-auto max-w-[84rem] px-6 lg:px-8">
+      <div className="relative mx-auto max-w-[84rem] px-6 lg:px-8">
+      <Image
+        src="/abstract-svg/circles.svg"
+        alt="abstract corner image"
+        width={0}
+        height={0}
+        className="absolute size-auto top-0 left-0"
+      />
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <Image
             src="/about-image.png"

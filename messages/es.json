@@ -233,10 +233,34 @@
       "description": "Aprenda más acerca de nuestra compañía y lo que hacemos."
     },
     "h1_title": "Sobre Nosotros",
-    "description": "",
+    "description": "En NeuraBoost, estamos comprometidos con la mejora del rendimiento cognitivo a través de tecnología innovadora e investigación científica. Nuestra misión es capacitar a las personas para desbloquear todo su potencial cognitivo.",
     "mission": "Nuestra misión",
-    "mission_description": "",
-    "team": "Nuestro equipo"
+    "mission_description": "Fundada en 2022 por un grupo de neurocientíficos e ingenieros de IA, NeuraBoost nació de una pasión compartida: ayudar a las personas a lograr claridad mental, concentración y resiliencia en un mundo cada vez más exigente. Diseñamos herramientas de entrenamiento cerebral personalizadas y basadas en datos para mejorar la memoria, la atención y el bienestar emocional.",
+    "stats": [
+      { "name": "Fundación", "value": "2022" },
+      { "name": "Profesionales entrenados", "value": "1,500+" },
+      { "name": "Clientes corporativos", "value": "40+" }
+    ],
+    "team": {
+      "title": "Nuestro Equipo",
+      "cards": [
+        {
+          "name": "Dr. Benjamin Carter",
+          "profession": "Neurocientífico Jefe",
+          "description": "Experto en memoria, sistemas de aprendizaje y neuroplasticidad."
+        },
+        {
+          "name": "Jake Nguyen",
+          "profession": "Director de Producto y UX",
+          "description": "Especialista en interacción humano-computadora. Diseña experiencias cognitivas fluidas basadas en la ciencia del comportamiento."
+        },
+        {
+          "name": "Laura Thompson",
+          "profession": "Ingeniera Jefe de IA",
+          "description": "Ingeniera especializada en sistemas de aprendizaje adaptativo y redes neuronales. Aporta inteligencia al núcleo de las herramientas de NeuraBoost."
+        }
+      ]
+    }
   },
   "programs": {
     "title": "Programas",

@@ -6,20 +6,6 @@ export default async function HeroSection() {
 
   return (
     <div className="flex overflow-hidden py-10 sm:py-14 lg:py-44">
-      {/* <Image
-        src="/hero-wave-top.svg"
-        alt=""
-        width={0}
-        height={0}
-        className="absolute top-0 size-auto -z-10"
-      />
-      <Image
-        src="/hero-wave-bottom.svg"
-        alt=""
-        width={0}
-        height={0}
-        className="absolute bottom-0 right-0 size-auto -z-10"
-      /> */}
       <div className="absolute top-0 -z-10 size-full bg-[url(/circuit-board.svg)] hidden sm:block" />
       <div className="absolute top-0 left-0 size-full -z-5 bg-radial from-background from-80% sm:from-75% md:from-70% lg:from-65% xl:from-60% to-transparent"/>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

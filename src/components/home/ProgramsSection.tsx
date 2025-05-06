@@ -65,7 +65,7 @@ export default async function ProgramsSection() {
               </Link>
               <p className="mt-2 text-base/7">{card.description}</p>
               <p className="mt-2 flex items-baseline gap-x-2 text-lg font-semibold">
-                {card.duration}
+                {card.price}
               </p>
             </div>
           </div>

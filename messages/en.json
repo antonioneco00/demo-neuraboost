@@ -134,7 +134,31 @@
     "description": "At NeuraBoost, we are committed to enhancing cognitive performance through innovative technology and scientific research. Our mission is to empower individuals to unlock their full cognitive potential.",
     "mission": "Our mission",
     "mission_description": "Founded in 2022 by a group of neuroscientists and AI engineers, NeuraBoost was born out of a shared passion: helping people achieve mental clarity, focus, and resilience in an increasingly demanding world. We design personalized, data-driven brain training tools to improve memory, attention, and emotional well-being.",
-    "team": "Our team"
+    "stats": [
+      { "name": "Founded", "value": "2022" },
+      { "name": "Professionals trained", "value": "1,500+" },
+      { "name": "Corporate clients", "value": "40+" }
+    ],
+    "team": {
+      "title": "Our Team",
+      "cards": [
+        {
+          "name": "Dr. Benjamin Carter",
+          "profession": "Chief Neuroscientist",
+          "description": "Expert in memory, learning systems, and neuroplasticity."
+        },
+        {
+          "name": "Jake Nguyen",
+          "profession": "Head of Product & UX",
+          "description": "Background in human-computer interaction. Designs seamless cognitive experiences rooted in behavioral science."
+        },
+        {
+          "name": "Laura Thompson",
+          "profession": "Lead AI Engineer",
+          "description": "Engineer specialized in adaptive learning systems and neural networks. Brings intelligence to the core of NeuraBoost’s tools."
+        }
+      ]
+    }
   },
   "programs": {
     "title": "Programs",
