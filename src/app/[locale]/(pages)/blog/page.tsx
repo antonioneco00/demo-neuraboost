@@ -36,14 +36,14 @@ export default async function Blog() {
         alt="abstract corner image"
         width={0}
         height={0}
-        className="absolute size-auto top-0 left-0 -z-10"
+        className="absolute size-40 sm:size-60 lg:size-auto top-0 left-0 -z-10"
       />
       <Image
         src="/abstract-svg/blog-corner.svg"
         alt="abstract corner image"
         width={0}
         height={0}
-        className="absolute size-auto top-0 right-0 -z-10"
+        className="absolute size-40 sm:size-60 lg:size-auto top-0 right-0 -z-10"
       />
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-base/7 font-semibold text-blue-500">
@@ -69,7 +69,7 @@ export default async function Blog() {
               height={0}
               className="absolute size-auto bottom-0 right-0"
             />
-            <Link href={`/blog/${key + 1}`}>
+            <a href="#">
               <Image
                 src={`/blog-${key + 1}.png`}
                 alt="about image"
@@ -77,7 +77,7 @@ export default async function Blog() {
                 height={500}
                 className="drop-shadow-three"
               />
-            </Link>
+            </a>
             <div className="h-full flex flex-col p-6 pt-4">
               <p className="mb-2 flex items-baseline gap-x-2 text-sm text-gray-500">
                 <span>{card.date}</span>
@@ -88,12 +88,12 @@ export default async function Blog() {
                   {card.slug}
                 </a>
               </p>
-              <Link
-                href={`/blog/${key + 1}`}
+              <a
+                href="#"
                 className="text-blue-400 text-xl font-semibold"
               >
                 {card.name}
-              </Link>
+              </a>
               <p className="mt-2 text-base/7">{card.description}</p>
               <p className="mt-auto flex items-baseline gap-x-2 text-gray-500">{card.author}</p>
             </div>

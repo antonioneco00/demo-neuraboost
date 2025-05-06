@@ -48,7 +48,7 @@ export default async function About() {
           alt="about image"
           width={1024}
           height={1024}
-          className="w-auto h-auto object-contain drop-shadow-three rounded-2xl my-auto z-10"
+          className="w-auto h-auto object-contain drop-shadow-three rounded-2xl shadow-2xl my-auto z-10"
         />
         <div className="lg:pr-8 mx-auto my-24">
           <div className="lg:max-w-4xl">

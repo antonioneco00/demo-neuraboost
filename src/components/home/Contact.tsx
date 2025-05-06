@@ -7,8 +7,7 @@ import { useMessages } from "next-intl";
 import { ContactFormData, Messages } from "@/types";
 
 export default function Contact() {
-  const { title, description, form } = (useMessages() as Messages).home.sections
-    .contact;
+  const { h1_title, description, form } = (useMessages() as Messages).contact;
   const {
     name,
     email,
@@ -63,7 +62,7 @@ export default function Contact() {
       <div className="max-w-3xl bg-background mx-auto py-12 rounded-2xl shadow-2xl ring-1 ring-gray-900/10 dark:ring-blue-400/40">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
-            {title}
+            {h1_title}
           </h2>
           <p className="mt-2 text-lg/8 text-gray-500">{description}</p>
         </div>

@@ -9,11 +9,11 @@
     },
     "footer": {
       "links": "Links",
+      "index": "Index",
       "about": "About",
       "programs": "Programs",
-      "pricing": "Pricing",
+      "blog": "Blog",
       "contact": "Contact",
-      "terms": "Terms",
       "info": "Company Info",
       "street": "123 Pepe Pepez Street",
       "city": "1XXXX Madrid",
@@ -100,27 +100,6 @@
             "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. Quis tellus eget adipiscing convallis sit sit eget aliquet quis."
           }
         ]
-      },
-      "contact": {
-        "title": "Contact",
-        "description": "Aute magna irure deserunt veniam aliqua magna enim voluptate.",
-        "form": {
-          "name": "Name",
-          "email": "Email",
-          "message": "Message",
-          "button": "Send",
-          "sending": "Sending...",
-          "success": "Message sent successfully!",
-          "required": {
-            "name": "Name is required",
-            "email": "Email is required",
-            "message": "Message is required"
-          },
-          "errors": {
-            "invalid_email": "Email is invalid",
-            "try_again": "Something went wrong. Please try again."
-          }
-        }
       }
     }
   },
@@ -211,6 +190,25 @@
     "metadata": {
       "title": "Contact",
       "description": "Get in touch with us"
+    },
+    "h1_title": "Contact",
+    "description": "Get in touch with us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "button": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "required": {
+        "name": "Name is required",
+        "email": "Email is required",
+        "message": "Message is required"
+      },
+      "errors": {
+        "invalid_email": "Email is invalid",
+        "try_again": "Something went wrong. Please try again."
+      }
     }
   }
 }

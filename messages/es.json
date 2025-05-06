@@ -9,11 +9,11 @@
     },
     "footer": {
       "links": "Enlaces",
+      "index": "Inicio",
       "about": "Acerca de",
       "programs": "Programas",
-      "pricing": "Precios",
+      "blog": "Blog",
       "contact": "Contacto",
-      "terms": "Términos",
       "info": "Información de la compañía",
       "street": "Calle Pepe Pépez, 123",
       "city": "1XXXX Madrid",
@@ -202,27 +202,6 @@
             "quote": "El programa ha transformado por completo mi forma de trabajar. La claridad mental y la capacidad de concentración que he ganado son invaluables para mi día a día profesional."
           }
         ]
-      },
-      "contact": {
-        "title": "Contacto",
-        "description": "Aute magna irure deserunt veniam aliqua magna enim voluptate.",
-        "form": {
-          "name": "Nombre",
-          "email": "Email",
-          "message": "Mensaje",
-          "button": "Enviar",
-          "sending": "Enviando...",
-          "success": "Mensaje enviado con éxito",
-          "required": {
-            "name": "Campo requerido",
-            "email": "Campo requerido",
-            "message": "Campo requerido"
-          },
-          "errors": {
-            "invalid_email": "Email inválido",
-            "try_again": "Error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
-          }
-        }
       }
     }
   },
@@ -313,6 +292,25 @@
     "metadata": {
       "title": "Contacto",
       "description": "Contáctenos para más información sobre nuestros programas y servicios."
+    },
+    "h1_title": "Contacto",
+    "description": "Póngase en contacto con nosotros",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "button": "Enviar",
+      "sending": "Enviando...",
+      "success": "Mensaje enviado con éxito",
+      "required": {
+        "name": "Campo requerido",
+        "email": "Campo requerido",
+        "message": "Campo requerido"
+      },
+      "errors": {
+        "invalid_email": "Email inválido",
+        "try_again": "Error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
+      }
     }
   }
 }
