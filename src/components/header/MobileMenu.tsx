@@ -9,7 +9,7 @@ import { useMessages } from "next-intl";
 import Image from "next/image";
 
 export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
-  const { home, about, contact, programs } = (useMessages() as Messages)
+  const { home, about, programs, blog, contact } = (useMessages() as Messages)
     .components.header;
 
   return (
@@ -52,28 +52,26 @@ export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
               >
                 {about}
               </Link>
-              {/* Cambiar por enlace a si no se necesita otra página */}
-              <Link
-                href="/contact"
-                className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50"
-                onClick={() => setIsOpen(false)}
-              >
-                {contact}
-              </Link>
-              {/* <a
-                href="#contact"
-                className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50"
-                onClick={() => setIsOpen(false)}
-
-              >
-                {contact}
-              </a> */}
               <Link
                 href="/programs"
                 className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50"
                 onClick={() => setIsOpen(false)}
               >
                 {programs}
+              </Link>
+              <Link
+                href="/blog"
+                className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50"
+                onClick={() => setIsOpen(false)}
+              >
+                {blog}
+              </Link>
+              <Link
+                href="/contact"
+                className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50"
+                onClick={() => setIsOpen(false)}
+              >
+                {contact}
               </Link>
             </div>
           </div>
