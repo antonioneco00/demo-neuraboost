@@ -10,7 +10,7 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 
 export default async function Footer() {
-  const { links, index, about, programs, blog, contact, copyright } = (
+  const { links, index, about, programs, blog, contact, follow, copyright } = (
     await getTypedMessages()
   ).components.footer;
 
@@ -31,9 +31,7 @@ export default async function Footer() {
                   height={32}
                   className="size-9"
                 />
-                <h1 className="text-xl font-semibold ml-2">
-                  NeuraBoost
-                </h1>
+                <h1 className="text-xl font-semibold ml-2">NeuraBoost</h1>
               </Link>
               <p className="text-base text-gray-500 font-medium">{copyright}</p>
             </div>
@@ -77,7 +75,7 @@ export default async function Footer() {
           </div>
           <div className="w-full md:w-4/12 lg:w-3/12 2xl:w-2/12 px-4">
             <div className="mb-6 mt-4">
-              <h3 className="font-medium text-xl mb-4">Follow Us</h3>
+              <h3 className="font-medium text-xl mb-4">{follow}</h3>
               <div className="flex flex-wrap items-center gap-x-4">
                 <a
                   href="#"

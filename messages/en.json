@@ -14,12 +14,7 @@
       "programs": "Programs",
       "blog": "Blog",
       "contact": "Contact",
-      "info": "Company Info",
-      "street": "123 Pepe Pepez Street",
-      "city": "1XXXX Madrid",
-      "country": "Spain",
-      "phone": "555-555-5555",
-      "email": "info@yourcompany.com",
+      "follow": "Follow Us",
       "copyright": "© 2025 NeuraBoost - All rights reserved."
     }
   },
@@ -97,7 +92,7 @@
           {
             "name": "Julia Hoffman",
             "description": "Marketing Manager",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. Quis tellus eget adipiscing convallis sit sit eget aliquet quis."
+            "quote": "I used to suffer from decision fatigue. After a month of Cognitive Mastery, I noticed I was thinking more clearly and handling stress much better. Highly recommended!"
           }
         ]
       }
