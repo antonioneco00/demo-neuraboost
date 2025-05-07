@@ -9,7 +9,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 
 export default function HeaderActions() {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const path = usePathname();
   const { locale } = useParams();
@@ -27,11 +27,11 @@ export default function HeaderActions() {
     <div className="flex flex-1 justify-end">
       <div className="flex">
         <button
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
           className="text-sm/6 font-semibold rounded-full hover:text-blue-400 transition-colors duration-500 cursor-pointer"
           aria-label="Toggle theme"
         >
-          {theme === "dark" ? (
+          {resolvedTheme === "dark" ? (
             <MoonIcon className="size-6" />
           ) : (
             <SunIcon className="size-6" />
