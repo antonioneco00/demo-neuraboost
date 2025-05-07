@@ -1,6 +1,7 @@
 import { getTypedMessages } from "@/lib/messages";
 import { Metadata } from "next";
 import Image from "next/image";
+import * as motion from "motion/react-client";
 
 export async function generateMetadata({
   params,
@@ -47,18 +48,49 @@ export default async function ProgramDetails({
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8">
             <div className="lg:max-w-lg">
-              <h2 className="mt-2 mb-6 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
+              <motion.h2
+                initial={{ x: -200, opacity: 0 }}
+                transition={{ duration: 1 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                className="mt-2 mb-6 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl"
+              >
                 {name}
-              </h2>
-              <h3 className="text-2xl font-semibold mb-3">{description}</h3>
-              <p className="text-lg text-gray-500 mb-4">{full_description}</p>
-              <h3 className="text-2xl font-semibold mb-3">{duration_title}</h3>
-              <p className="text-lg text-gray-500 mb-4">{duration}</p>
-              <h3 className="text-2xl font-semibold mb-3">{price_title}</h3>
-              <p className="text-lg text-gray-500 mb-4">{price}</p>
+              </motion.h2>
+              <motion.div
+                initial={{ x: -200, opacity: 0 }}
+                transition={{ duration: 1, delay: 0.2 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+              >
+                <h3 className="text-2xl font-semibold mb-3">{description}</h3>
+                <p className="text-lg text-gray-500 mb-4">{full_description}</p>
+              </motion.div>
+              <motion.div initial={{ x: -200, opacity: 0 }}
+                transition={{ duration: 1, delay: 0.4 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}>
+                <h3 className="text-2xl font-semibold mb-3">
+                  {duration_title}
+                </h3>
+                <p className="text-lg text-gray-500 mb-4">{duration}</p>
+              </motion.div>
+              <motion.div initial={{ x: -200, opacity: 0 }}
+                transition={{ duration: 1, delay: 0.6 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}>
+                <h3 className="text-2xl font-semibold mb-3">{price_title}</h3>
+                <p className="text-lg text-gray-500 mb-4">{price}</p>
+              </motion.div>
             </div>
           </div>
-          <div className="relative h-fit my-auto">
+          <motion.div
+            initial={{ x: 200, opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            className="relative h-fit my-auto"
+          >
             <Image
               src="/abstract-svg/circles.svg"
               alt="abstract corner image"
@@ -74,7 +106,7 @@ export default async function ProgramDetails({
               priority
               className="size-full object-contain shadow-2xl rounded-lg"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
