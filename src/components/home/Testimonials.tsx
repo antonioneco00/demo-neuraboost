@@ -1,5 +1,6 @@
 import { getTypedMessages } from "@/lib/messages";
 import Image from "next/image";
+import * as motion from "motion/react-client";
 
 export default async function Testimonials() {
   const { title, description, clients } = (await getTypedMessages()).home
@@ -21,15 +22,27 @@ export default async function Testimonials() {
         height={0}
         className="absolute size-auto top-40 right-0 -z-10"
       />
-      <div className="mx-auto max-w-4xl text-center">
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="mx-auto max-w-4xl text-center"
+      >
         <h1 className="mt-2 text-5xl font-semibold tracking-tight text-balance sm:text-6xl">
           {title}
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
           {description}
         </p>
-      </div>
-      <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 lg:max-w-6xl lg:grid-cols-3 gap-x-8">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        transition={{ duration: 1.5 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 lg:max-w-6xl lg:grid-cols-3 gap-x-8"
+      >
         {clients.map((client, id) => (
           <div
             key={client.name}
@@ -77,7 +90,7 @@ export default async function Testimonials() {
             </div>
           </div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }

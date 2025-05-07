@@ -8,6 +8,7 @@ import {
 import { getTypedMessages } from "@/lib/messages";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import * as motion from "motion/react-client";
 
 export default async function Footer() {
   const { links, index, about, programs, blog, contact, follow, copyright } = (
@@ -16,7 +17,13 @@ export default async function Footer() {
 
   return (
     <footer className="bg-linear-120 from-background to-blue-50 dark:to-blue-950 pt-20 pb-12">
-      <div className="container mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="container mx-auto"
+      >
         <div className="flex flex-wrap">
           <div className="w-full lg:w-4/12 2xl:w-5/12 px-4">
             <div className="mb-6">
@@ -109,7 +116,7 @@ export default async function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </footer>
   );
 }
