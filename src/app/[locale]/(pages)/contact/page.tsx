@@ -1,4 +1,4 @@
-import ContactComponent from "@/components/home/Contact";
+import ContactComponent from "@/components/contact/Contact";
 import { getTypedMessages } from "@/lib/messages";
 import { Metadata } from "next";
 

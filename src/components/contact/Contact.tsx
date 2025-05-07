@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { useMessages } from "next-intl";
 import { ContactFormData, Messages } from "@/types";
+import { motion } from "motion/react";
 
 export default function Contact() {
   const { h1_title, description, form, info } = (useMessages() as Messages)
@@ -64,7 +65,13 @@ export default function Contact() {
       <div className="absolute top-0 left-0 -z-10 size-full bg-[url(/constellation.svg)]" />
       <div className="max-w-6xl bg-background mx-auto lg:p-12 p-6 rounded-2xl shadow-2xl ring-1 ring-gray-900/10 dark:ring-blue-400/40">
         <div className="flex md:flex-row flex-col">
-          <div className="lg:grow md:w-lg lg:pr-0 md:pr-6">
+          <motion.div
+            initial={{ x: -200, opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            className="lg:grow md:w-lg lg:pr-0 md:pr-6"
+          >
             <div className="mx-auto text-center">
               <h2 className="text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
                 {h1_title}
@@ -166,17 +173,37 @@ export default function Contact() {
                 <p className="mt-4 text-red-600 text-center">{error}</p>
               )}
             </form>
-          </div>
+          </motion.div>
 
           <div className="xl:w-xs md:w-3xs md:border-l border-gray-500/30 md:pl-8 mx-3 sm:mx-8 md:mx-0">
-            <h3 className="text-3xl font-bold my-8">{title}</h3>
-            <div className="mb-6">
+            <motion.h3
+              initial={{ x: 200, opacity: 0 }}
+              transition={{ duration: 1 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              className="text-3xl font-bold my-8"
+            >
+              {title}
+            </motion.h3>
+            <motion.div
+              initial={{ x: 200, opacity: 0 }}
+              transition={{ duration: 1, delay: 0.1 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              className="mb-6"
+            >
               <h4 className="text-lg font-semibold mb-3">{address}</h4>
               <p className="text-gray-500">{street}</p>
               <p className="text-gray-500">{city}</p>
               <p className="text-gray-500">{country}</p>
-            </div>
-            <div className="mb-6">
+            </motion.div>
+            <motion.div
+              initial={{ x: 200, opacity: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              className="mb-6"
+            >
               <h4 className="text-lg font-semibold mb-3">{phone}</h4>
               <a
                 href="tel:911234567"
@@ -184,8 +211,13 @@ export default function Contact() {
               >
                 +34 911 234 567
               </a>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ x: 200, opacity: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
+            >
               <h4 className="text-lg font-semibold mb-3">Email</h4>
               <a
                 href="mailto:hello@neuraboost.com"
@@ -193,7 +225,7 @@ export default function Contact() {
               >
                 hello@neuraboost.com
               </a>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

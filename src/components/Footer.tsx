@@ -47,12 +47,12 @@ export default async function Footer() {
             <div className="mb-6 mt-4">
               <h3 className="font-medium text-xl mb-4">{links}</h3>
               <div className="flex flex-wrap items-center">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="text-base text-gray-500 hover:text-blue-500 font-medium mr-8 transition-colors duration-500"
                 >
                   {index}
-                </a>
+                </Link>
                 <Link
                   href="/about"
                   className="text-base text-gray-500 hover:text-blue-500 font-medium mr-8 transition-colors duration-500"
