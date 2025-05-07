@@ -3,6 +3,7 @@ import { getTypedMessages } from "@/lib/messages";
 import Image from "next/image";
 import TeamSection from "@/components/about/TeamSection";
 import StatsSection from "@/components/about/StatsSection";
+import * as motion from "motion/react-client";
 
 export async function generateMetadata({
   params,
@@ -36,28 +37,47 @@ export default async function About() {
       <div className="absolute top-0 left-0 size-full -z-5 bg-radial from-background from-80% sm:from-75% md:from-70% lg:from-65% xl:from-60% to-transparent" />
       <div className="flex flex-col mx-auto max-w-7xl text-center px-6 lg:px-8">
         <div className="lg:pr-8 mx-auto mb-20">
-          <div className="lg:max-w-4xl">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 1 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="lg:max-w-4xl"
+          >
             <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
               {h1_title}
             </h1>
             <p className="mt-6 text-2xl text-gray-500">{description}</p>
-          </div>
+          </motion.div>
         </div>
-        <Image
-          src="/about-image.png"
-          alt="about image"
-          width={1024}
-          height={1024}
-          className="w-auto h-auto object-contain drop-shadow-three rounded-2xl shadow-2xl my-auto z-10"
-        />
-        <div className="lg:pr-8 mx-auto my-24">
+        <motion.div
+          initial={{ opacity: 0 }}
+          transition={{ duration: 1.5 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
+          <Image
+            src="/about-image.png"
+            alt="about image"
+            width={1024}
+            height={1024}
+            className="w-auto h-auto object-contain drop-shadow-three rounded-2xl shadow-2xl my-auto z-10"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          transition={{ duration: 1 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="lg:pr-8 mx-auto my-24"
+        >
           <div className="lg:max-w-4xl">
             <h2 className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
               {mission}
             </h2>
             <p className="mt-6 text-2xl text-gray-500">{mission_description}</p>
           </div>
-        </div>
+        </motion.div>
         <StatsSection />
         <TeamSection />
       </div>
