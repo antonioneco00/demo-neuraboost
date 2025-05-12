@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       },
       changeFrequency: "monthly",
-      priority: 1.0,
+      priority: parseFloat((1.0).toFixed(1)),
     },
     {
       url: `${baseUrl}/about`,
