@@ -6,4 +6,5 @@ Allow: /
 Host: https://neuraboost.vercel.app
 
 # Sitemaps
+Sitemap: https://neuraboost.vercel.app/sitemap.xml
 Sitemap: https://neuraboost.vercel.app/mysites.xml
