@@ -3,10 +3,12 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
+  const formatDate = (date: Date) => date.toISOString().split("T")[0];
+
   return [
     {
       url: `${baseUrl}`,
-      lastModified: new Date(),
+      lastModified: formatDate(new Date()),
       alternates: {
         languages: {
           es: `${baseUrl}/es`,
@@ -18,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
+      lastModified: formatDate(new Date()),
       alternates: {
         languages: {
           es: `${baseUrl}/es/about`,
@@ -30,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/programs`,
-      lastModified: new Date(),
+      lastModified: formatDate(new Date()),
       alternates: {
         languages: {
           es: `${baseUrl}/es/programs`,
@@ -42,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date(),
+      lastModified: formatDate(new Date()),
       alternates: {
         languages: {
           es: `${baseUrl}/es/blog`,
@@ -54,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      lastModified: formatDate(new Date()),
       alternates: {
         languages: {
           es: `${baseUrl}/es/contact`,
