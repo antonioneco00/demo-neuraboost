@@ -2,33 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://neuraboost.vercel.app</loc>
-        <xhtml:link rel="alternate" hreflang="es" href="https://neuraboost.vercel.app/es" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://neuraboost.vercel.app/en" />
-        <lastmod>2025-05-12T10:46:33.297Z</lastmod>
+        <loc>https://neuraboost.vercel.app/</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://neuraboost.vercel.app/es/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://neuraboost.vercel.app/en/" />
+        <lastmod>2025-05-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
     </url>
     <url>
         <loc>https://neuraboost.vercel.app/about</loc>
         <xhtml:link rel="alternate" hreflang="es" href="https://neuraboost.vercel.app/es/about" />
         <xhtml:link rel="alternate" hreflang="en" href="https://neuraboost.vercel.app/en/about" />
-        <lastmod>2025-05-12T10:46:33.297Z</lastmod>
+        <lastmod>2025-05-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://neuraboost.vercel.app/programs</loc>
         <xhtml:link rel="alternate" hreflang="es" href="https://neuraboost.vercel.app/es/programs" />
         <xhtml:link rel="alternate" hreflang="en" href="https://neuraboost.vercel.app/en/programs" />
-        <lastmod>2025-05-12T10:46:33.297Z</lastmod>
+        <lastmod>2025-05-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://neuraboost.vercel.app/blog</loc>
         <xhtml:link rel="alternate" hreflang="es" href="https://neuraboost.vercel.app/es/blog" />
         <xhtml:link rel="alternate" hreflang="en" href="https://neuraboost.vercel.app/en/blog" />
-        <lastmod>2025-05-12T10:46:33.297Z</lastmod>
+        <lastmod>2025-05-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://neuraboost.vercel.app/contact</loc>
         <xhtml:link rel="alternate" hreflang="es" href="https://neuraboost.vercel.app/es/contact" />
         <xhtml:link rel="alternate" hreflang="en" href="https://neuraboost.vercel.app/en/contact" />
-        <lastmod>2025-05-12T10:46:33.297Z</lastmod>
+        <lastmod>2025-05-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
     </url>
 </urlset>
