@@ -13,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
           en: `${baseUrl}/en`,
         },
       },
+      changeFrequency: "monthly",
+      priority: 1.0,
     },
     {
       url: `${baseUrl}/about`,
@@ -23,6 +25,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
           en: `${baseUrl}/en/about`,
         },
       },
+      changeFrequency: "yearly",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/programs`,
@@ -33,6 +37,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
           en: `${baseUrl}/en/programs`,
         },
       },
+      changeFrequency: "yearly",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/blog`,
@@ -43,6 +49,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
           en: `${baseUrl}/en/blog`,
         },
       },
+      changeFrequency: "yearly",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/contact`,
@@ -53,6 +61,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
           en: `${baseUrl}/en/contact`,
         },
       },
+      changeFrequency: "yearly",
+      priority: 0.8,
     },
   ];
 }
