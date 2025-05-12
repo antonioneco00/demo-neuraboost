@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: {
           es: `${baseUrl}/es`,
-          de: `${baseUrl}/de`,
+          en: `${baseUrl}/en`,
         },
       },
     },
@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: {
           es: `${baseUrl}/es/about`,
-          de: `${baseUrl}/de/about`,
+          en: `${baseUrl}/en/about`,
         },
       },
     },
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: {
           es: `${baseUrl}/es/programs`,
-          de: `${baseUrl}/de/programs`,
+          en: `${baseUrl}/en/programs`,
         },
       },
     },
@@ -44,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: {
           es: `${baseUrl}/es/blog`,
-          de: `${baseUrl}/de/blog`,
+          en: `${baseUrl}/en/blog`,
         },
       },
     },
@@ -55,7 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: {
           es: `${baseUrl}/es/contact`,
-          de: `${baseUrl}/de/contact`,
+          en: `${baseUrl}/en/contact`,
         },
       },
     },
