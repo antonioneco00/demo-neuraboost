@@ -1,68 +1,63 @@
-import type { MetadataRoute } from 'next';
+import type { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
   return [
+    // Página principal
     {
-      url: `${baseUrl}/es`,
+      url: `${baseUrl}`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1.0,
+      alternates: {
+        languages: {
+          es: `${baseUrl}/es`,
+          de: `${baseUrl}/de`,
+        },
+      },
     },
+    // About
     {
-      url: `${baseUrl}/en`,
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1.0,
+      alternates: {
+        languages: {
+          es: `${baseUrl}/es/about`,
+          de: `${baseUrl}/de/about`,
+        },
+      },
     },
+    // Programs
     {
-      url: `${baseUrl}/es/about`,
+      url: `${baseUrl}/programs`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      alternates: {
+        languages: {
+          es: `${baseUrl}/es/programs`,
+          de: `${baseUrl}/de/programs`,
+        },
+      },
     },
+    // Blog
     {
-      url: `${baseUrl}/en/about`,
+      url: `${baseUrl}/blog`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      alternates: {
+        languages: {
+          es: `${baseUrl}/es/blog`,
+          de: `${baseUrl}/de/blog`,
+        },
+      },
     },
+    // Contact
     {
-      url: `${baseUrl}/es/programs`,
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/en/programs`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/es/blog`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/en/blog`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/es/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/en/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
+      alternates: {
+        languages: {
+          es: `${baseUrl}/es/contact`,
+          de: `${baseUrl}/de/contact`,
+        },
+      },
     },
   ];
 }
