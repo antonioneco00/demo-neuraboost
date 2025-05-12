@@ -7,12 +7,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: `${baseUrl}`,
+      url: `${baseUrl}/`,
       lastModified: formatDate(new Date()),
       alternates: {
         languages: {
-          es: `${baseUrl}/es`,
-          en: `${baseUrl}/en`,
+          es: `${baseUrl}/es/`,
+          en: `${baseUrl}/en/`,
         },
       },
       changeFrequency: "monthly",
